@@ -34,6 +34,19 @@ Phase 1 — 重建根基 (6-12 个月)
     - 龙书（Compilers: Principles, Techniques, Tools）中文版
     - 现代编译原理相关课程/讲义（Coursera、edX 等）
   - 进度：⬜
+- 软件设计基础
+  - WHAT & WHY：掌握面向对象设计原则（S.O.L.I.D）和常用设计模式，写出可维护、可扩展的代码。是提升代码质量的最快路径。
+  - 推荐资源：
+    - 《Head First 设计模式》
+    - 《设计模式》- GoF（经典）
+    - Refactoring.Guru（在线图解）
+  - 进度：⬜
+- 软件架构
+  - WHAT & WHY：理解分层架构、MVVM、Clean Architecture 等架构模式，提升系统设计能力和代码组织能力。
+  - 推荐资源：
+    - 《架构整洁之道》- Robert C. Martin
+    - Flutter 官方架构示例（BLoC、Riverpod）
+  - 进度：⬜
 
 Phase 2 — 深耕全栈 (ongoing, parallel with Phase 1)
 - Frontend mastery: Flutter 深入与 Dart 语言特性
