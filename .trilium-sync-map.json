@@ -1,0 +1,980 @@
+{
+  "items": {
+    "0-Projects": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:23+08:00",
+      "noteId": "vKlInUyGxL8C",
+      "templateVersion": 2,
+      "title": "0-Projects"
+    },
+    "0-Projects/P001-软件开发能力提升": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:32+08:00",
+      "noteId": "lRERaxKfx3sj",
+      "templateVersion": 2,
+      "title": "P001-软件开发能力提升"
+    },
+    "0-Projects/P001-软件开发能力提升/first-month-calendar.md": {
+      "hash": "5e0c7d64b650329fddc4052f75da1c88898ff92f3a78af51d1e3ad69daacf0c4",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:29:57+08:00",
+      "noteId": "T3w0nsdddXb0",
+      "templateVersion": 2,
+      "title": "first-month-calendar"
+    },
+    "0-Projects/P001-软件开发能力提升/labs": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:46+08:00",
+      "noteId": "AE5P3Sfm4uEF",
+      "templateVersion": 2,
+      "title": "labs"
+    },
+    "0-Projects/P001-软件开发能力提升/labs/bomb-lab-guide.md": {
+      "hash": "61a1aeacdf1d5e43c74538b05804d9951700ea73e454fa4c89908d546696ebad",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:29:59+08:00",
+      "noteId": "zOCfwNSRvaZR",
+      "templateVersion": 2,
+      "title": "bomb-lab-guide"
+    },
+    "0-Projects/P001-软件开发能力提升/labs/cache-lab-guide.md": {
+      "hash": "df2faac7b09362ec5b8b828b1cef1e05038da766247c7e21cffef09a7fc40396",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:00+08:00",
+      "noteId": "pkOeiqBvxqO3",
+      "templateVersion": 2,
+      "title": "cache-lab-guide"
+    },
+    "0-Projects/P001-软件开发能力提升/labs/data-lab-guide.md": {
+      "hash": "abf614c13c11ba4a4b4cfea0bede94bffa2c2c88f6849fa9db9af9166aa92af5",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:02+08:00",
+      "noteId": "1ifa9w4fbpF0",
+      "templateVersion": 2,
+      "title": "data-lab-guide"
+    },
+    "0-Projects/P001-软件开发能力提升/labs/other-labs-guide.md": {
+      "hash": "025f37305b6e3d81937262f38111441fddf4744cd272e60b5880b365a905b149",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:05+08:00",
+      "noteId": "MV9YI7z2cGSh",
+      "templateVersion": 2,
+      "title": "other-labs-guide"
+    },
+    "0-Projects/P001-软件开发能力提升/notes": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:47+08:00",
+      "noteId": "RjuRIStmAzKe",
+      "templateVersion": 2,
+      "title": "notes"
+    },
+    "0-Projects/P001-软件开发能力提升/notes/_index.md": {
+      "hash": "20e0893b50b2db5b7d5e92c22d45bbb5f0032eaf64d422317f43634a48603aab",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:06+08:00",
+      "noteId": "CBMBn1ktfzeJ",
+      "templateVersion": 2,
+      "title": "_index"
+    },
+    "0-Projects/P001-软件开发能力提升/notes/ch01-计算机系统漫游.md": {
+      "hash": "d482d16fc629e5351dbe99ad624733568fcd518d534cd455aa525ef64010730d",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:08+08:00",
+      "noteId": "uxd4hyQHnVG4",
+      "templateVersion": 2,
+      "title": "ch01-计算机系统漫游"
+    },
+    "0-Projects/P001-软件开发能力提升/notes/ch02-信息的表示和处理.md": {
+      "hash": "ca02e24f87d17bbdccaedbed17179027f59eebb69ee2672492d194437f8ba6ef",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:09+08:00",
+      "noteId": "GuZetabI7RwK",
+      "templateVersion": 2,
+      "title": "ch02-信息的表示和处理"
+    },
+    "0-Projects/P001-软件开发能力提升/notes/ch03-程序的机器级表示.md": {
+      "hash": "035a5c28535c654a49dab3989d98faa717a61096c57a67aede7578f557ce286a",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:10+08:00",
+      "noteId": "n0M89Dtubhxj",
+      "templateVersion": 2,
+      "title": "ch03-程序的机器级表示"
+    },
+    "0-Projects/P001-软件开发能力提升/notes/ch04-处理器体系结构.md": {
+      "hash": "d2c54e98546f194d755821c4bff4cb6cb8d3957d9eeed13d9805638e22e1b6f7",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:11+08:00",
+      "noteId": "CSJar4Y2xzpq",
+      "templateVersion": 2,
+      "title": "ch04-处理器体系结构"
+    },
+    "0-Projects/P001-软件开发能力提升/notes/ch05-优化程序性能.md": {
+      "hash": "151e644d3eb453cf77d23ecd44009ab6046fd60fddd90d9dce3888bca2dfcab0",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:12+08:00",
+      "noteId": "NzysAEFI4U3Q",
+      "templateVersion": 2,
+      "title": "ch05-优化程序性能"
+    },
+    "0-Projects/P001-软件开发能力提升/notes/ch06-存储器层次结构.md": {
+      "hash": "380b1d683cd78d307f67fb417de9086c798df6b25582507306d8bf38c4951eca",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:13+08:00",
+      "noteId": "ChT2VwAXB3HJ",
+      "templateVersion": 2,
+      "title": "ch06-存储器层次结构"
+    },
+    "0-Projects/P001-软件开发能力提升/notes/ch07-链接.md": {
+      "hash": "406400ae27758ece1cfafe28d8511263caf2911995d28aef0b4b0a253449d74c",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:15+08:00",
+      "noteId": "011KEqtvmanD",
+      "templateVersion": 2,
+      "title": "ch07-链接"
+    },
+    "0-Projects/P001-软件开发能力提升/notes/ch08-异常控制流.md": {
+      "hash": "032322c18c57cca83301ab25daf8797217579090dc69c9cf78a70e8420c88eb8",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:16+08:00",
+      "noteId": "ZHtSBOL5cQ5N",
+      "templateVersion": 2,
+      "title": "ch08-异常控制流"
+    },
+    "0-Projects/P001-软件开发能力提升/notes/ch09-虚拟内存.md": {
+      "hash": "496440810a24e9e036a5379678c5250f6cf0ba2c44644e9bcd8de0357680ff7b",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:17+08:00",
+      "noteId": "rT2hhL86iT7b",
+      "templateVersion": 2,
+      "title": "ch09-虚拟内存"
+    },
+    "0-Projects/P001-软件开发能力提升/notes/ch10-系统级IO.md": {
+      "hash": "9048fd0d5db8a2031a8695baadeb65134d21497ee595f000e2ddb08c853b6be5",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:19+08:00",
+      "noteId": "7OKCXjrY2ztX",
+      "templateVersion": 2,
+      "title": "ch10-系统级IO"
+    },
+    "0-Projects/P001-软件开发能力提升/notes/ch11-网络编程.md": {
+      "hash": "e2fea9d35fd4353fd5e15483d3a9622a5b006570396145f4d197d99ef59af9ef",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:20+08:00",
+      "noteId": "eSHKmDkRljDT",
+      "templateVersion": 2,
+      "title": "ch11-网络编程"
+    },
+    "0-Projects/P001-软件开发能力提升/notes/ch12-并发编程.md": {
+      "hash": "fb43b56fff7140c96b98639113ab64dd2c4d15405e812dc666746c23d9d9f8db",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:21+08:00",
+      "noteId": "yykuU65VQ6cE",
+      "templateVersion": 2,
+      "title": "ch12-并发编程"
+    },
+    "0-Projects/P001-软件开发能力提升/plan.md": {
+      "hash": "2c55f0ad9fe10247f2f4ffbd51d65ef0c9701996b00608f42f76ddc2722d5b0b",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:23+08:00",
+      "noteId": "uxokZDBOxoQy",
+      "templateVersion": 2,
+      "title": "plan"
+    },
+    "0-Projects/_index.md": {
+      "hash": "69618dda1e1f80c84cbccdbf9d4fe3cd44a13f1db5f754d20ef69f7629326d95",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:24+08:00",
+      "noteId": "0AGTdkAFd6WS",
+      "templateVersion": 2,
+      "title": "_index"
+    },
+    "1-Areas": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:25+08:00",
+      "noteId": "kDmvwgnjsX3Q",
+      "templateVersion": 2,
+      "title": "1-Areas"
+    },
+    "1-Areas/A1-技术": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:34+08:00",
+      "noteId": "tiRiW4svnMR0",
+      "templateVersion": 2,
+      "title": "A1-技术"
+    },
+    "1-Areas/A1-技术/backend": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:48+08:00",
+      "noteId": "KWiJghFgYqIi",
+      "templateVersion": 2,
+      "title": "backend"
+    },
+    "1-Areas/A1-技术/backend/go-learning-guide.md": {
+      "hash": "63a20811ed47d3ff33eeb395141b508c0cbb248aacb7e387e0b2d142f20dc084",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:25+08:00",
+      "noteId": "OipGduT90SB9",
+      "templateVersion": 2,
+      "title": "go-learning-guide"
+    },
+    "1-Areas/A1-技术/backend/system-design-primer.md": {
+      "hash": "efe70f9312234df7bc3dc07cad653b66b9e4891aedc157a201ac8ea2c7f65f60",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:27+08:00",
+      "noteId": "Q2a6zGdLKNVe",
+      "templateVersion": 2,
+      "title": "system-design-primer"
+    },
+    "1-Areas/A1-技术/design-patterns": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:49+08:00",
+      "noteId": "wd5gKapdf7PF",
+      "templateVersion": 2,
+      "title": "design-patterns"
+    },
+    "1-Areas/A1-技术/design-patterns.md": {
+      "hash": "b5ee9fb58e83f819925005407086e3ee799de0dae375e2e02265ad88906cd014",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:28+08:00",
+      "noteId": "tHtpwDS5wSFs",
+      "templateVersion": 2,
+      "title": "design-patterns"
+    },
+    "1-Areas/A1-技术/design-patterns/01-singleton.md": {
+      "hash": "1bf20c4cbf3f452e453c3c30e2375f0780850298030382bcb498ad0f82cb57d0",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:29+08:00",
+      "noteId": "1P0p0tCXlbPo",
+      "templateVersion": 2,
+      "title": "01-singleton"
+    },
+    "1-Areas/A1-技术/design-patterns/02-factory-method.md": {
+      "hash": "af6528887846b9d757fa4c48eba8eea6916db74652e209caa448fbbe074878d9",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:30+08:00",
+      "noteId": "FrZAJkL5CkJp",
+      "templateVersion": 2,
+      "title": "02-factory-method"
+    },
+    "1-Areas/A1-技术/design-patterns/03-abstract-factory.md": {
+      "hash": "e8e90069eabca746dc0714c0afe74498c53bae4dc647e4316596b6252a15d294",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:31+08:00",
+      "noteId": "5la6zo4zIIGz",
+      "templateVersion": 2,
+      "title": "03-abstract-factory"
+    },
+    "1-Areas/A1-技术/design-patterns/04-builder.md": {
+      "hash": "f92f6d3a4dac86c14a7084449ed137713d57180dafa0c223da3e2f375a83efa3",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:33+08:00",
+      "noteId": "4aZlLV9YO72x",
+      "templateVersion": 2,
+      "title": "04-builder"
+    },
+    "1-Areas/A1-技术/design-patterns/05-prototype.md": {
+      "hash": "27d6363bae48e7d2738629bd194f10b53a442489b52bf0145f6f4fc900673e14",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:34+08:00",
+      "noteId": "q4iTHnmlnhoT",
+      "templateVersion": 2,
+      "title": "05-prototype"
+    },
+    "1-Areas/A1-技术/design-patterns/06-adapter.md": {
+      "hash": "463c478ec2ffc2fbb7d6fe42a6fd7614b857ab71d71c9ce605cf14a00dd0452d",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:36+08:00",
+      "noteId": "5QcYIDGkWn1j",
+      "templateVersion": 2,
+      "title": "06-adapter"
+    },
+    "1-Areas/A1-技术/design-patterns/07-bridge.md": {
+      "hash": "65f0af6648cae6cbdb899b3e933e17344818e0dd32a7788e6b070ee4a1ad3ff1",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:37+08:00",
+      "noteId": "eA6lm4rriLxX",
+      "templateVersion": 2,
+      "title": "07-bridge"
+    },
+    "1-Areas/A1-技术/design-patterns/08-composite.md": {
+      "hash": "e4d63c601af3194d47329765854a5ac1a61f80b4bd59f2ce9bf4ac925401780b",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:38+08:00",
+      "noteId": "QCyhU1ftqAvp",
+      "templateVersion": 2,
+      "title": "08-composite"
+    },
+    "1-Areas/A1-技术/design-patterns/09-decorator.md": {
+      "hash": "2b5ada05cc32d85ac0e11d61e3e91ce6c13d0f89e37523686f6732bb5bf2a380",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:40+08:00",
+      "noteId": "1ecxDI6cHWGZ",
+      "templateVersion": 2,
+      "title": "09-decorator"
+    },
+    "1-Areas/A1-技术/design-patterns/10-facade.md": {
+      "hash": "da9675cadcb63c7fbdb6ccc9dff1fbaba9447ba13fa15cb674fbd46a4e81f3a4",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:42+08:00",
+      "noteId": "R9QtrT65sMTV",
+      "templateVersion": 2,
+      "title": "10-facade"
+    },
+    "1-Areas/A1-技术/design-patterns/11-flyweight.md": {
+      "hash": "46d91062bb89092f1e65c3a49987dd03d333ace3e0381f6bf65a703155172c97",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:43+08:00",
+      "noteId": "jX57v2VF7mCi",
+      "templateVersion": 2,
+      "title": "11-flyweight"
+    },
+    "1-Areas/A1-技术/design-patterns/12-proxy.md": {
+      "hash": "b571dee55d697eddc6b76f139c7ce2fa31f23b7840af9e6b1461425e9dd34e54",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:44+08:00",
+      "noteId": "ShpHQmV6uQtR",
+      "templateVersion": 2,
+      "title": "12-proxy"
+    },
+    "1-Areas/A1-技术/design-patterns/13-chain-of-responsibility.md": {
+      "hash": "261af67e0e820ebfb3a55973818f6226771abc78202e5a29e20a9636ee26d01f",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:46+08:00",
+      "noteId": "OWxVxBj92JKw",
+      "templateVersion": 2,
+      "title": "13-chain-of-responsibility"
+    },
+    "1-Areas/A1-技术/design-patterns/14-command.md": {
+      "hash": "caa09937aab30def03a0440f43c3e691937e5b40f97a1f02b682299ba2a1ee3b",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:47+08:00",
+      "noteId": "nNdQuo0rBUl4",
+      "templateVersion": 2,
+      "title": "14-command"
+    },
+    "1-Areas/A1-技术/design-patterns/15-iterator.md": {
+      "hash": "8ab6d2df70f53c216fa1f372efefd070f912d55e702e61d24aa8158f32a32956",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:48+08:00",
+      "noteId": "sTehrLDp71v2",
+      "templateVersion": 2,
+      "title": "15-iterator"
+    },
+    "1-Areas/A1-技术/design-patterns/16-mediator.md": {
+      "hash": "ae5e88d2542924d5453f1ff3c7d4c412a4ccdbb5be04384e913526a7138f1d61",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:49+08:00",
+      "noteId": "Mv24XenWdtYV",
+      "templateVersion": 2,
+      "title": "16-mediator"
+    },
+    "1-Areas/A1-技术/design-patterns/17-memento.md": {
+      "hash": "c3c16d880ab37c4aaeab83b3788b096fcdcbf5415573b3ba133d75cbfac281cb",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:51+08:00",
+      "noteId": "lZwIPWlzMW6g",
+      "templateVersion": 2,
+      "title": "17-memento"
+    },
+    "1-Areas/A1-技术/design-patterns/18-observer.md": {
+      "hash": "fde68464045b9826626603374e79638e42c815f5f8f13c9b4c7708fa5af260cd",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:52+08:00",
+      "noteId": "GyYg9jaKNjX3",
+      "templateVersion": 2,
+      "title": "18-observer"
+    },
+    "1-Areas/A1-技术/design-patterns/19-state.md": {
+      "hash": "0fdaf73f31dbbbb4db8fb8ce75867e23be716fdeed770182a2f6393039ee40e4",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:54+08:00",
+      "noteId": "HXhnZmRMfF5z",
+      "templateVersion": 2,
+      "title": "19-state"
+    },
+    "1-Areas/A1-技术/design-patterns/20-strategy.md": {
+      "hash": "43e8cba73074cbc160be461cd5c5c698cbe6482a90e9e14814ec352e2d23d114",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:55+08:00",
+      "noteId": "SmPkBzlVQLDO",
+      "templateVersion": 2,
+      "title": "20-strategy"
+    },
+    "1-Areas/A1-技术/design-patterns/21-template-method.md": {
+      "hash": "aa9db22f87da17025a124e79b7fbd314cd3e39d100850aed958114a0794c1c18",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:56+08:00",
+      "noteId": "4RtuFFXJKPFe",
+      "templateVersion": 2,
+      "title": "21-template-method"
+    },
+    "1-Areas/A1-技术/design-patterns/22-visitor.md": {
+      "hash": "b330ff1e1d80c4c562361a21e7d0c4307bbd957cdec7b6bb47502bb791eccaa8",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:57+08:00",
+      "noteId": "OLfMjklP8ntS",
+      "templateVersion": 2,
+      "title": "22-visitor"
+    },
+    "1-Areas/A1-技术/design-patterns/23-interpreter.md": {
+      "hash": "8844592980fa9a31442e33bd4a03e4167fa73f231a87fe0689534e4c881d6b5e",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:30:58+08:00",
+      "noteId": "QvvZW2aJq4LV",
+      "templateVersion": 2,
+      "title": "23-interpreter"
+    },
+    "1-Areas/A1-技术/flutter-design-patterns.md": {
+      "hash": "203db9313b4eadb4d8f37399ef6eb89573ad64360e96877bc63a19237271b2cb",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:00+08:00",
+      "noteId": "Q8JabDFSXxqq",
+      "templateVersion": 2,
+      "title": "flutter-design-patterns"
+    },
+    "1-Areas/A1-技术/frontend": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:50+08:00",
+      "noteId": "CYE1lp372f7p",
+      "templateVersion": 2,
+      "title": "frontend"
+    },
+    "1-Areas/A1-技术/frontend/clean-architecture-template.md": {
+      "hash": "15e3bd8abd512172ee5d3675b68a4d18d601b848617a2fa901d6361a89cd71cd",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:02+08:00",
+      "noteId": "juif08tDNWSs",
+      "templateVersion": 2,
+      "title": "clean-architecture-template"
+    },
+    "1-Areas/A1-技术/frontend/dart3-advanced-features.md": {
+      "hash": "175d6baa3276ad6e8844e223d6d61bf20df07b00b7cbdfb07c35d3f5b5590fb1",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:03+08:00",
+      "noteId": "AbU1AGCs5KnJ",
+      "templateVersion": 2,
+      "title": "dart3-advanced-features"
+    },
+    "1-Areas/A1-技术/frontend/flutter-rendering-pipeline.md": {
+      "hash": "5500d373f7782f165abe6934006841a5e716b777be82f46185ab3d074a5993f1",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:04+08:00",
+      "noteId": "X1JBof4sDpdG",
+      "templateVersion": 2,
+      "title": "flutter-rendering-pipeline"
+    },
+    "1-Areas/A1-技术/frontend/state-management-comparison.md": {
+      "hash": "fb48ca425d94173c33110040129d7fe2eae995f58516a530bdd6042979b50780",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:06+08:00",
+      "noteId": "UpA5rcT56huZ",
+      "templateVersion": 2,
+      "title": "state-management-comparison"
+    },
+    "1-Areas/A1-技术/leetcode-study-plan.md": {
+      "hash": "ba3a30d247ef0e2f76247e38351af334be638d427f9a78985ef2bb6a90c5adf2",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:07+08:00",
+      "noteId": "OSHtjjnSK8X6",
+      "templateVersion": 2,
+      "title": "leetcode-study-plan"
+    },
+    "1-Areas/A1-技术/roadmap.md": {
+      "hash": "c28649c4f95b57a04637be3f55f1aae62188bc9458e930b24f21dcf0da7678cf",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:09+08:00",
+      "noteId": "srhzqCXnCTN5",
+      "templateVersion": 2,
+      "title": "roadmap"
+    },
+    "1-Areas/A2-理财": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:35+08:00",
+      "noteId": "bHAfGP64hJHw",
+      "templateVersion": 2,
+      "title": "A2-理财"
+    },
+    "1-Areas/A2-理财/basics": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:52+08:00",
+      "noteId": "xkprS2EGskMC",
+      "templateVersion": 2,
+      "title": "basics"
+    },
+    "1-Areas/A2-理财/basics/小狗钱钱笔记框架.md": {
+      "hash": "25b64a272794d69964b4eaf884dee3c27e9a15821955d0da39e8c4b7c5c3c184",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:10+08:00",
+      "noteId": "sMj92lNFRfXM",
+      "templateVersion": 2,
+      "title": "小狗钱钱笔记框架"
+    },
+    "1-Areas/A2-理财/basics/常见理财概念清单.md": {
+      "hash": "cab886b43d284a05ca404d071a38b59826d38fd7ebc974a4c560a58eed3e8c73",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:11+08:00",
+      "noteId": "QDjga0D2BBjA",
+      "templateVersion": 2,
+      "title": "常见理财概念清单"
+    },
+    "1-Areas/A2-理财/basics/财务自由之路笔记框架.md": {
+      "hash": "816a4f76e900911763a78e8265eaa80830f42fb18a59255a51e3881527e34d40",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:12+08:00",
+      "noteId": "Tx8baQFxT37w",
+      "templateVersion": 2,
+      "title": "财务自由之路笔记框架"
+    },
+    "1-Areas/A2-理财/practice": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:53+08:00",
+      "noteId": "JBE5jP8s71IQ",
+      "templateVersion": 2,
+      "title": "practice"
+    },
+    "1-Areas/A2-理财/practice/理财实操模板.md": {
+      "hash": "0780640e66c4deaaf3ee163cf4b5dc49d2570a6db9b8ba09a1c616ffed0a5c12",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:17+08:00",
+      "noteId": "p8pNtc0N7f78",
+      "templateVersion": 2,
+      "title": "理财实操模板"
+    },
+    "1-Areas/A2-理财/roadmap.md": {
+      "hash": "76bc967723638924988c6c9d1d89a5837acee237e32fed4c1ab4f9f240a0ae6b",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:18+08:00",
+      "noteId": "gJBPSsE6rFPW",
+      "templateVersion": 2,
+      "title": "roadmap"
+    },
+    "1-Areas/A3-认知": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:37+08:00",
+      "noteId": "H5OBWIe5MWeL",
+      "templateVersion": 2,
+      "title": "A3-认知"
+    },
+    "1-Areas/A3-认知/game-theory": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:54+08:00",
+      "noteId": "mw9l6J0obLuy",
+      "templateVersion": 2,
+      "title": "game-theory"
+    },
+    "1-Areas/A3-认知/game-theory/博弈论入门笔记.md": {
+      "hash": "a1f88e5821b55c3cc41650c1abf396ae04f946fb9bd62cd566542c092ffc489a",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:20+08:00",
+      "noteId": "lrqJwNv3W9PW",
+      "templateVersion": 2,
+      "title": "博弈论入门笔记"
+    },
+    "1-Areas/A3-认知/logic": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:55+08:00",
+      "noteId": "5AOjBYdAFDnA",
+      "templateVersion": 2,
+      "title": "logic"
+    },
+    "1-Areas/A3-认知/logic/逻辑谬误清单.md": {
+      "hash": "e96e90e4acf5bb5309d2edadd3a160a8ae7a1a25213955da6095082d27f2157e",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:22+08:00",
+      "noteId": "n11cG44ZY14f",
+      "templateVersion": 2,
+      "title": "逻辑谬误清单"
+    },
+    "1-Areas/A3-认知/psychology": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:56+08:00",
+      "noteId": "kE3onHnlSmIK",
+      "templateVersion": 2,
+      "title": "psychology"
+    },
+    "1-Areas/A3-认知/psychology/思考快与慢笔记框架.md": {
+      "hash": "1d97b24a2e1aa7112c6beb3a4066dfa4dffbc0d6b1b6bc750178168d87e820f5",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:23+08:00",
+      "noteId": "M4L8G1HbW4BL",
+      "templateVersion": 2,
+      "title": "思考快与慢笔记框架"
+    },
+    "1-Areas/A3-认知/psychology/认知偏差清单.md": {
+      "hash": "8305b89e28808f535f6a49a107c2345dc73071c97b324dc49cd77377e04668b8",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:25+08:00",
+      "noteId": "K4OgXHd1KdEG",
+      "templateVersion": 2,
+      "title": "认知偏差清单"
+    },
+    "1-Areas/A3-认知/roadmap.md": {
+      "hash": "842dc1abe30e1b88dba19856dac1eb5f4cb9c850b7797e9dc43e5d82acba33ac",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:26+08:00",
+      "noteId": "dr835kwf3PcK",
+      "templateVersion": 2,
+      "title": "roadmap"
+    },
+    "1-Areas/_index.md": {
+      "hash": "8c5004fe030f80cf7f2c6eae3841725d978547b6988c99b4f724ef2a91870f35",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:27+08:00",
+      "noteId": "m0gpSZc2J9H3",
+      "templateVersion": 2,
+      "title": "_index"
+    },
+    "2-Resources": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:27+08:00",
+      "noteId": "7hDn1kFcJH8a",
+      "templateVersion": 2,
+      "title": "2-Resources"
+    },
+    "2-Resources/100天读书计划.md": {
+      "hash": "282685cd149fbe3a099031e010d95bb458acaf74c57e201733cecf135c09f5cd",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:29+08:00",
+      "noteId": "krNR15EwnNAw",
+      "templateVersion": 2,
+      "title": "100天读书计划"
+    },
+    "2-Resources/courses.md": {
+      "hash": "8bdb581a588bef8803bc6619c37afb8da46955bc790c7586b31ffc2a1345ecdf",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:30+08:00",
+      "noteId": "mTsL6dOjqZNq",
+      "templateVersion": 2,
+      "title": "courses"
+    },
+    "2-Resources/git-workflow.md": {
+      "hash": "3be2d8eb72082cb7063df856ea1e76896ca6d89c8a5c37a807a4d6e6fd5e5045",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:32+08:00",
+      "noteId": "c33FGl9FWT7M",
+      "templateVersion": 2,
+      "title": "git-workflow"
+    },
+    "2-Resources/interview-preparation.md": {
+      "hash": "953561e8c47cf550ed8b8c313a92d27e8052863875b5c075f9c08c7675b939cc",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:33+08:00",
+      "noteId": "qas9KaNAfHS6",
+      "templateVersion": 2,
+      "title": "interview-preparation"
+    },
+    "2-Resources/reading-list.md": {
+      "hash": "6765fc919772caca814bcbb88baabd70e0ac3613e8efcee5af2f0eb38298162e",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:34+08:00",
+      "noteId": "XCjoiEUarqYS",
+      "templateVersion": 2,
+      "title": "reading-list"
+    },
+    "2-Resources/tools.md": {
+      "hash": "98b3d597a6f3fb0a19b1b2f320d2aa9219fcf5441f75e0989cb81036d6dd8a3b",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:35+08:00",
+      "noteId": "pEbgkTHyrCvO",
+      "templateVersion": 2,
+      "title": "tools"
+    },
+    "4-Journal": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:29+08:00",
+      "noteId": "4AFWHDW1XwdE",
+      "templateVersion": 2,
+      "title": "4-Journal"
+    },
+    "4-Journal/monthly": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:38+08:00",
+      "noteId": "QGviwiTSWWf9",
+      "templateVersion": 2,
+      "title": "monthly"
+    },
+    "4-Journal/monthly/_template.md": {
+      "hash": "c4e7d34f5424faa1a4282df9871265b169311911c0f82671ecaa006b6ece03ef",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:36+08:00",
+      "noteId": "SmZNl5W0F3Ju",
+      "templateVersion": 2,
+      "title": "_template"
+    },
+    "4-Journal/weekly": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:39+08:00",
+      "noteId": "D6OvRcqylj9w",
+      "templateVersion": 2,
+      "title": "weekly"
+    },
+    "4-Journal/weekly/2026-W28.md": {
+      "hash": "5af4da80329e8cb06c2d43865cca32e166cdf43433c56fae0cec38f21d3d4606",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:38+08:00",
+      "noteId": "QOGEPaefGyTh",
+      "templateVersion": 2,
+      "title": "2026-W28"
+    },
+    "4-Journal/weekly/2026-W29.md": {
+      "hash": "a01002831342de25aac734b96a2ace0f73a4cfe2928329691c98673bc5cd5c4d",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:39+08:00",
+      "noteId": "1WFWALkKIz4z",
+      "templateVersion": 2,
+      "title": "2026-W29"
+    },
+    "4-Journal/weekly/_template.md": {
+      "hash": "c49f493371b596b66be1d53c32f099a384c268aaa3bd3f5d9954486845a5a44b",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:40+08:00",
+      "noteId": "HbZq1I0r5g3b",
+      "templateVersion": 2,
+      "title": "_template"
+    },
+    "4-Journal/weekly/example-weekly-review.md": {
+      "hash": "610f17ca10c06e6cdcf777537a5de05efe5d85ae36f07d75f572e1ff81140886",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:41+08:00",
+      "noteId": "98W2ai8XkAFP",
+      "templateVersion": 2,
+      "title": "example-weekly-review"
+    },
+    "4-Journal/yearly": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:40+08:00",
+      "noteId": "gXQSaIqkkXjm",
+      "templateVersion": 2,
+      "title": "yearly"
+    },
+    "4-Journal/yearly/_template.md": {
+      "hash": "913e2d745402af421ac29250cd02d64310d41e18f2f84da809af35a7138881d6",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:44+08:00",
+      "noteId": "SBta0TVBZyuB",
+      "templateVersion": 2,
+      "title": "_template"
+    },
+    "5-Playground": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:30+08:00",
+      "noteId": "BUWahNjeLPuU",
+      "templateVersion": 2,
+      "title": "5-Playground"
+    },
+    "5-Playground/challenges": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:41+08:00",
+      "noteId": "a4ca1t8180CQ",
+      "templateVersion": 2,
+      "title": "challenges"
+    },
+    "5-Playground/challenges/README.md": {
+      "hash": "12fe3a2dfa2adf7bcb3a55272e3250f8e0132c9655dec12f1036eb63e57f3031",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:46+08:00",
+      "noteId": "pKaoa05jrBHC",
+      "templateVersion": 2,
+      "title": "README"
+    },
+    "5-Playground/discussions": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:42+08:00",
+      "noteId": "8v0wO8QH1ZnF",
+      "templateVersion": 2,
+      "title": "discussions"
+    },
+    "5-Playground/discussions/001-AI时代学底层还有意义吗.md": {
+      "hash": "8960782b204106f898dfa553f8cb0fd5b3531e61fabc4c0c87469e7d933b3db1",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:47+08:00",
+      "noteId": "2RkJvsWUvNs4",
+      "templateVersion": 2,
+      "title": "001-AI时代学底层还有意义吗"
+    },
+    "5-Playground/discussions/002-为什么Dart没有unsigned-int.md": {
+      "hash": "e5d93155cc2913f0f7669bc981d2c83c33599ae4d0598a9a4981b267e6289b7e",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:48+08:00",
+      "noteId": "4an4STVi8TIN",
+      "templateVersion": 2,
+      "title": "002-为什么Dart没有unsigned-int"
+    },
+    "5-Playground/discussions/003-Flutter的Widget为什么是immutable的.md": {
+      "hash": "8fdf38744b740e64df4b23bcd20d9f419d6444de69e067472420407e0c355920",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:49+08:00",
+      "noteId": "1mqyIqhTgSYj",
+      "templateVersion": 2,
+      "title": "003-Flutter的Widget为什么是immutable的"
+    },
+    "5-Playground/discussions/004-不要过早优化.md": {
+      "hash": "9127642a7d5c006eeca9327bc068ceb3b9dc109f3d6da2ae19a08852a672ce75",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:50+08:00",
+      "noteId": "INr9rmTLx5zp",
+      "templateVersion": 2,
+      "title": "004-不要过早优化"
+    },
+    "5-Playground/discussions/005-如果你是框架设计师.md": {
+      "hash": "1e4ec12d694c49ee24b2c5c0c73427376c74b8c18d3c9d976deeb3ae0b6154d1",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:51+08:00",
+      "noteId": "rDUvbVn2y9v5",
+      "templateVersion": 2,
+      "title": "005-如果你是框架设计师"
+    },
+    "5-Playground/discussions/README.md": {
+      "hash": "b110bcd0af11dca77eadf6b944ba7819fd4ca82eda91d9e936711ac6e0153ab9",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:52+08:00",
+      "noteId": "Cu1Z2Cu3Ghg2",
+      "templateVersion": 2,
+      "title": "README"
+    },
+    "5-Playground/homework": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:44+08:00",
+      "noteId": "zQNkdhv2PzTP",
+      "templateVersion": 2,
+      "title": "homework"
+    },
+    "5-Playground/homework/001-你写的代码计算机在做什么.md": {
+      "hash": "25dc17349b7289fd386eb7bbd0599703d1376469ef5f62c11799f9b8105ba818",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:54+08:00",
+      "noteId": "PhX8kSSNaCuG",
+      "templateVersion": 2,
+      "title": "001-你写的代码计算机在做什么"
+    },
+    "5-Playground/homework/002-设计模式单例练习.md": {
+      "hash": "a89148dd127479b177a03ad58ce6634cdd714a97709c11e33e00d6cfe3fc5028",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:55+08:00",
+      "noteId": "VhMEqEbiW7Te",
+      "templateVersion": 2,
+      "title": "002-设计模式单例练习"
+    },
+    "5-Playground/homework/003-整数的秘密.md": {
+      "hash": "d988246b0b0154f864ced08a0c333e97ed4a8bfe6a85f3239055d686bf823262",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:56+08:00",
+      "noteId": "19s5H6KSk8i6",
+      "templateVersion": 2,
+      "title": "003-整数的秘密"
+    },
+    "5-Playground/homework/004-工厂模式练习.md": {
+      "hash": "ac6b98b760f08d832c7602e0358017c97b40c08e60f5e068e037ea770cdee687",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:58+08:00",
+      "noteId": "jtwc23inhOyV",
+      "templateVersion": 2,
+      "title": "004-工厂模式练习"
+    },
+    "5-Playground/homework/005-读懂汇编.md": {
+      "hash": "5fa9716bd8fef1d3a17bec6590a3e1b50904e4b7b91d7471931a5ef04b644757",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:31:59+08:00",
+      "noteId": "g24y1XUYCr1z",
+      "templateVersion": 2,
+      "title": "005-读懂汇编"
+    },
+    "5-Playground/homework/006-观察者与策略练习.md": {
+      "hash": "fb8b3713badaee6244bb2cbff5095fe93a2eda6ebf5423cd5541e746cd063f46",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:32:00+08:00",
+      "noteId": "poRFvAgIMcmp",
+      "templateVersion": 2,
+      "title": "006-观察者与策略练习"
+    },
+    "5-Playground/homework/007-缓存实战.md": {
+      "hash": "5c55af0b8ed7b74fb18dff50e6a4ca6702ce9082223ee2541fa0d5cb1b7a5448",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:32:01+08:00",
+      "noteId": "iGvOlVCKb8ed",
+      "templateVersion": 2,
+      "title": "007-缓存实战"
+    },
+    "5-Playground/homework/008-装饰器与组合练习.md": {
+      "hash": "658e74e80c36157ac5040a5b06502c6bd25234e079fe08082fcbf88872022927",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:32:02+08:00",
+      "noteId": "8pcmxsGAMq8B",
+      "templateVersion": 2,
+      "title": "008-装饰器与组合练习"
+    },
+    "5-Playground/homework/README.md": {
+      "hash": "bd9863c2612e0f0f53a3e5e8c931274dc9928cb3ef62650dc66caa26665eb2b1",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:32:03+08:00",
+      "noteId": "78EtuXA6EqPi",
+      "templateVersion": 2,
+      "title": "README"
+    },
+    "README.md": {
+      "hash": "3e36b52fd211beccfde3fe15e991bee8d16dcce0c3c8f94002d92685c0781071",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:32:05+08:00",
+      "noteId": "nFttSC4XKjp0",
+      "templateVersion": 2,
+      "title": "README"
+    },
+    "guideline": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:31+08:00",
+      "noteId": "NsS3KdLbrkOH",
+      "templateVersion": 2,
+      "title": "guideline"
+    },
+    "guideline/_index.md": {
+      "hash": "e1a14edbd6d077e38d900a64a520ad319a244d86221f58fcbd79a3dacc6af808",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:32:06+08:00",
+      "noteId": "QBAyZVMDjtiz",
+      "templateVersion": 2,
+      "title": "_index"
+    },
+    "guideline/一五计划": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-11T11:29:45+08:00",
+      "noteId": "1ZMvJI5Xc2Do",
+      "templateVersion": 2,
+      "title": "一五计划"
+    },
+    "guideline/一五计划/2026-06-24_to_2027-03-24_阶段作战表.md": {
+      "hash": "58ab46c1b5c2668884f747d4e3f21fb79fa885096343f215d2c7c678dbed8b63",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:32:08+08:00",
+      "noteId": "4hveRpUwiIjJ",
+      "templateVersion": 2,
+      "title": "2026-06-24_to_2027-03-24_阶段作战表"
+    },
+    "guideline/一五计划/_index.md": {
+      "hash": "501a1f13febb483e903f48187b30ef2502c82ada6dd618f2a47c56e60941afc6",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:32:09+08:00",
+      "noteId": "Ch4wfTyBpdf7",
+      "templateVersion": 2,
+      "title": "_index"
+    },
+    "guideline/一五计划/第一个五年计划.md": {
+      "hash": "ed860944e3fc10e57bc7237dceace6a37d1045da0f6ba90fd93308995ac6a482",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:32:10+08:00",
+      "noteId": "A41CdOw75sPd",
+      "templateVersion": 2,
+      "title": "第一个五年计划"
+    },
+    "guideline/二十年总纲.md": {
+      "hash": "8ffa2acb098096d87bf1a5d9ebfc001aa2fbfefd2cbcde02adb5ec9d4aafa6eb",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-11T11:32:11+08:00",
+      "noteId": "RUwvt6VJDmKk",
+      "templateVersion": 2,
+      "title": "二十年总纲"
+    }
+  },
+  "lastSyncedAt": "2026-07-11T11:45:55+08:00",
+  "rootNoteId": "IcJM4VdVG0zX",
+  "version": 1
+}

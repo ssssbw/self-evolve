@@ -14,5 +14,13 @@ Desktop.ini
 *.tmp
 *.bak
 
+# Python cache
+__pycache__/
+*.pyc
+
 电子书/
 .playwright-mcp/
+
+# Local Trilium sync logs and secrets
+.trilium-sync-logs/
+.env
