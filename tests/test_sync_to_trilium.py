@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import importlib.util
 import json
+import os
 from pathlib import Path
 import tempfile
 import unittest
@@ -54,6 +55,61 @@ class SyncEventLoggerTests(unittest.TestCase):
         args = parser.parse_args(["--log-dir", ".custom-sync-logs"])
 
         self.assertEqual(args.log_dir, ".custom-sync-logs")
+
+
+class DotenvTests(unittest.TestCase):
+    def test_load_dotenv_sets_missing_values_without_overriding_existing_environment(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            env_path = Path(temp_dir) / ".env"
+            env_path.write_text(
+                "\n".join(
+                    [
+                        "# Trilium sync config",
+                        "TRILIUM_HOST=https://example.test",
+                        "TRILIUM_ROOT_NOTE_ID='root-note'",
+                        "TRILIUM_TOKEN=\"secret token\"",
+                        "TRILIUM_SYNC_TIMEOUT=30",
+                        "IGNORED_LINE_WITHOUT_EQUALS",
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            original = {key: os.environ.get(key) for key in ["TRILIUM_HOST", "TRILIUM_ROOT_NOTE_ID", "TRILIUM_TOKEN", "TRILIUM_SYNC_TIMEOUT"]}
+            os.environ["TRILIUM_HOST"] = "https://already-set.test"
+            for key in ["TRILIUM_ROOT_NOTE_ID", "TRILIUM_TOKEN", "TRILIUM_SYNC_TIMEOUT"]:
+                os.environ.pop(key, None)
+            try:
+                loaded = sync_to_trilium.load_dotenv(env_path)
+
+                self.assertEqual(os.environ["TRILIUM_HOST"], "https://already-set.test")
+                self.assertEqual(os.environ["TRILIUM_ROOT_NOTE_ID"], "root-note")
+                self.assertEqual(os.environ["TRILIUM_TOKEN"], "secret token")
+                self.assertEqual(os.environ["TRILIUM_SYNC_TIMEOUT"], "30")
+                self.assertEqual(
+                    loaded,
+                    {
+                        "TRILIUM_ROOT_NOTE_ID": "root-note",
+                        "TRILIUM_TOKEN": "secret token",
+                        "TRILIUM_SYNC_TIMEOUT": "30",
+                    },
+                )
+            finally:
+                for key, value in original.items():
+                    if value is None:
+                        os.environ.pop(key, None)
+                    else:
+                        os.environ[key] = value
+
+    def test_env_int_uses_environment_value_before_default(self) -> None:
+        original = os.environ.get("TRILIUM_SYNC_RETRIES")
+        os.environ["TRILIUM_SYNC_RETRIES"] = "5"
+        try:
+            self.assertEqual(sync_to_trilium.env_int("TRILIUM_SYNC_RETRIES", 3), 5)
+        finally:
+            if original is None:
+                os.environ.pop("TRILIUM_SYNC_RETRIES", None)
+            else:
+                os.environ["TRILIUM_SYNC_RETRIES"] = original
 
 
 class SyncHtmlTests(unittest.TestCase):

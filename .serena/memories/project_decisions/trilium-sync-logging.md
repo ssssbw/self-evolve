@@ -1,7 +1,10 @@
 # Trilium Sync Logging
 
 - `scripts/sync_to_trilium.py` writes local JSONL event logs for each run.
-- Default log directory: `.trilium-sync-logs/`; override with `--log-dir`.
+- Unix/macOS root `./sync` is the one-command entrypoint for real sync. Windows root `sync.cmd` is the equivalent command prompt entrypoint. Both require local `.env`, then run `scripts/sync_to_trilium.py` with forwarded args; pass `--dry-run` to preview.
+- Local `.env` is loaded by `scripts/sync_to_trilium.py` without external dependencies. CLI flags still override environment variables; `.env` does not override already-set OS environment variables.
+- `.env.example` documents required keys: `TRILIUM_HOST`, `TRILIUM_ROOT_NOTE_ID`, `TRILIUM_TOKEN`; optional tuning keys: `TRILIUM_SYNC_TIMEOUT`, `TRILIUM_SYNC_RETRIES`, `TRILIUM_SYNC_RETRY_DELAY`, `TRILIUM_SYNC_REQUEST_DELAY`, `TRILIUM_SYNC_LOG_DIR`.
+- Default log directory: `.trilium-sync-logs/`; override with `--log-dir` or `TRILIUM_SYNC_LOG_DIR`.
 - Log files are named from the run start timestamp, e.g. `sync-YYYY-MM-DDTHH-MM-SS-08-00.jsonl`.
 - Events include `start`, `dry-run`, `recover`, `create`, `update`, `skip`, `orphan`, `summary`, and `error` where applicable.
 - Event fields use JSON-friendly camelCase for durable fields such as `runId`, `startedAt`, `noteId`, `hashBefore`, `hashAfter`, `rootNoteId`, `statePath`, `templateVersionBefore`, `templateVersionAfter`.

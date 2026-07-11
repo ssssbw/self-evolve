@@ -210,6 +210,52 @@ class TriliumClient:
         )
 
 
+def parse_dotenv_value(value: str) -> str:
+    value = value.strip()
+    if len(value) >= 2 and value[0] == value[-1] and value[0] in {"'", '"'}:
+        return value[1:-1]
+    return value
+
+
+def load_dotenv(path: Path = REPO_ROOT / ".env") -> dict[str, str]:
+    if not path.exists():
+        return {}
+
+    loaded: dict[str, str] = {}
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        if not key or key in os.environ:
+            continue
+        parsed_value = parse_dotenv_value(value)
+        os.environ[key] = parsed_value
+        loaded[key] = parsed_value
+    return loaded
+
+
+def env_int(name: str, default: int) -> int:
+    value = os.environ.get(name)
+    if value is None or value == "":
+        return default
+    try:
+        return int(value)
+    except ValueError as exc:
+        raise ConfigError(f"Invalid integer for {name}: {value}") from exc
+
+
+def env_float(name: str, default: float) -> float:
+    value = os.environ.get(name)
+    if value is None or value == "":
+        return default
+    try:
+        return float(value)
+    except ValueError as exc:
+        raise ConfigError(f"Invalid number for {name}: {value}") from exc
+
+
 def extract_note_id(response: Any) -> str | None:
     if isinstance(response, dict):
         if isinstance(response.get("noteId"), str):
@@ -629,6 +675,7 @@ def rebuild_state_from_trilium(
 
 
 def sync(args: argparse.Namespace) -> int:
+    load_dotenv()
     host = args.host or os.environ.get("TRILIUM_HOST", "http://localhost:8080")
     token = args.token or os.environ.get("TRILIUM_TOKEN")
     root_note_id = args.root_note_id or os.environ.get("TRILIUM_ROOT_NOTE_ID")
@@ -939,6 +986,7 @@ def now_iso() -> str:
 
 
 def build_parser() -> argparse.ArgumentParser:
+    load_dotenv()
     parser = argparse.ArgumentParser(
         description="Sync selected self-evolve Markdown files to Trilium via ETAPI."
     )
@@ -948,16 +996,31 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--state", help="Sync state path. Default: .trilium-sync-map.json")
     parser.add_argument(
         "--log-dir",
-        default=str(DEFAULT_LOG_DIR),
+        default=os.environ.get("TRILIUM_SYNC_LOG_DIR", str(DEFAULT_LOG_DIR)),
         help="Directory for JSONL sync event logs. Default: .trilium-sync-logs",
     )
-    parser.add_argument("--timeout", type=int, default=20, help="HTTP timeout in seconds. Default: 20.")
-    parser.add_argument("--retries", type=int, default=3, help="Retry count for transient HTTP/network errors.")
-    parser.add_argument("--retry-delay", type=int, default=10, help="Retry delay in seconds when server gives no hint.")
+    parser.add_argument(
+        "--timeout",
+        type=int,
+        default=env_int("TRILIUM_SYNC_TIMEOUT", 20),
+        help="HTTP timeout in seconds. Default: 20.",
+    )
+    parser.add_argument(
+        "--retries",
+        type=int,
+        default=env_int("TRILIUM_SYNC_RETRIES", 3),
+        help="Retry count for transient HTTP/network errors.",
+    )
+    parser.add_argument(
+        "--retry-delay",
+        type=int,
+        default=env_int("TRILIUM_SYNC_RETRY_DELAY", 10),
+        help="Retry delay in seconds when server gives no hint.",
+    )
     parser.add_argument(
         "--request-delay",
         type=float,
-        default=0.2,
+        default=env_float("TRILIUM_SYNC_REQUEST_DELAY", 0.2),
         help="Delay after each successful request, useful for small self-hosted Trilium instances.",
     )
     parser.add_argument("--dry-run", action="store_true", help="Scan only; do not call Trilium.")
