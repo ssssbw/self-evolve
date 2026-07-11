@@ -34,6 +34,57 @@ self-evolve/
 - **最近动态**：查看 `4-Journal/` 下最新的复盘文件
 - **接续工作**：阅读 `.ai/SESSION-LOG.md`
 
+## Trilium 同步
+
+本仓库通过根目录脚本把 Markdown 单向同步到 Trilium：
+
+```bash
+./sync
+```
+
+Windows 使用：
+
+```bat
+sync.cmd
+```
+
+首次使用前，把 `.env.example` 复制为 `.env`，并填写 Trilium 地址、根笔记 ID 和 ETAPI token。`.env` 是本地密钥文件，不提交到 Git。
+
+常用操作：
+
+```bash
+./sync --dry-run
+```
+
+只预览，不修改 Trilium。
+
+```bash
+./sync
+```
+
+执行真实同步，更新 Trilium 中对应笔记。
+
+如果本地删除了 Markdown 文件，dry-run 或真实同步可能提示 orphan：
+
+```text
+Orphaned Trilium notes were left untouched:
+- 2-Resources/example.md
+```
+
+这表示 Trilium 中还有旧笔记，但本地源文件已经不存在。确认这些文件确实是自己删除后，可以先预览清理：
+
+```bash
+./sync --prune-orphans --dry-run
+```
+
+确认列表无误后执行真实清理：
+
+```bash
+./sync --prune-orphans
+```
+
+清理会删除 Trilium 中对应 orphan 笔记，并从 `.trilium-sync-map.json` 移除映射。默认不带 `--prune-orphans` 时永远不会自动删除 Trilium 笔记。
+
 ## 基于 PARA 方法
 
 本项目采用 [PARA](https://fortelabs.com/blog/para/) 方法组织知识：

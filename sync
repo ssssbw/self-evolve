@@ -9,4 +9,21 @@ if [[ ! -f ".env" ]]; then
   exit 2
 fi
 
-python3 scripts/sync_to_trilium.py "$@"
+VENV_PY="$ROOT_DIR/.venv/bin/python"
+
+install_deps() {
+  echo "Installing Python dependencies..."
+  if ! "$VENV_PY" -m pip install -r requirements.txt; then
+    echo "Dependency install failed. If this is a network issue, set HTTP_PROXY and HTTPS_PROXY to http://127.0.0.1:7897 and retry." >&2
+    exit 1
+  fi
+}
+
+if [[ ! -x "$VENV_PY" ]]; then
+  python3 -m venv "$ROOT_DIR/.venv"
+  install_deps
+elif ! "$VENV_PY" -c "import markdown_it" >/dev/null 2>&1; then
+  install_deps
+fi
+
+"$VENV_PY" scripts/sync_to_trilium.py "$@"

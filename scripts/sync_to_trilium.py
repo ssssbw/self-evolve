@@ -6,7 +6,7 @@ This script is intentionally one-way:
     Git / Markdown -> Trilium
 
 Trilium is treated as a read-only mirror. The script stores local sync state in
-`.trilium-sync-map.json`, which is ignored by Git.
+`.trilium-sync-map.json` so path-to-note mappings can be reused across machines.
 """
 
 from __future__ import annotations
@@ -23,6 +23,11 @@ import sys
 import time
 from typing import Any
 from urllib import error, parse, request
+
+try:
+    from markdown_it import MarkdownIt
+except ImportError:
+    MarkdownIt = None  # type: ignore[assignment]
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -50,7 +55,8 @@ EXCLUDED_DIRS = {
 }
 
 SYNC_NOTICE = "本笔记由 self-evolve Git 仓库同步，请勿在 Trilium 端编辑。"
-CONTENT_TEMPLATE_VERSION = 2
+CONTENT_TEMPLATE_VERSION = 3
+_MARKDOWN_RENDERER: Any = None
 
 
 class ConfigError(RuntimeError):
@@ -67,6 +73,7 @@ class SyncEventLogger:
         "markdown_files": "markdownFiles",
         "note_id": "noteId",
         "previous_note_id": "previousNoteId",
+        "prune_orphans": "pruneOrphans",
         "request_delay": "requestDelay",
         "rebuild_state": "rebuildState",
         "retry_delay": "retryDelay",
@@ -206,8 +213,11 @@ class TriliumClient:
             "PUT",
             f"/etapi/notes/{parse.quote(note_id)}/content",
             raw_body=content,
-            content_type="text/html; charset=utf-8",
+            content_type="text/plain; charset=utf-8",
         )
+
+    def delete_note(self, note_id: str) -> None:
+        self._request("DELETE", f"/etapi/notes/{parse.quote(note_id)}")
 
 
 def parse_dotenv_value(value: str) -> str:
@@ -383,167 +393,66 @@ def needs_content_update(existing: dict[str, Any] | None, current_hash: str | No
     return False
 
 
-def inline_markdown(text: str) -> str:
-    escaped = html.escape(text)
+def current_source_paths(files: list[Path], dirs: list[Path]) -> set[str]:
+    return {relative_path(path) for path in files} | {relative_path(path) for path in dirs}
 
-    def link_repl(match: re.Match[str]) -> str:
-        label = html.escape(match.group(1))
-        url = html.escape(match.group(2), quote=True)
-        return f'<a href="{url}">{label}</a>'
 
-    escaped = re.sub(r"`([^`]+)`", r"<code>\1</code>", escaped)
-    escaped = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", escaped)
-    escaped = re.sub(r"\*([^*]+)\*", r"<em>\1</em>", escaped)
-    escaped = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", link_repl, escaped)
-    return escaped
+def find_orphaned_paths(items: dict[str, dict[str, Any]], source_paths: set[str]) -> list[str]:
+    return sorted(path for path in items if path not in source_paths)
+
+
+def prune_orphans(
+    client: Any,
+    state: dict[str, Any],
+    orphaned: list[str],
+    state_path: Path,
+    event_logger: SyncEventLogger,
+) -> int:
+    items = state["items"]
+    pruned = 0
+    for path in orphaned:
+        item = items.get(path)
+        if item is None:
+            continue
+        note_id = item.get("noteId")
+        if not note_id:
+            continue
+        client.delete_note(note_id)
+        event_logger.record(
+            "prune",
+            kind=item.get("kind"),
+            path=path,
+            title=item.get("title"),
+            note_id=note_id,
+            reason="missing-source-path",
+        )
+        del items[path]
+        state["lastSyncedAt"] = now_iso()
+        save_state(state_path, state)
+        pruned += 1
+        log(f"PRUNE orphan {path}")
+    return pruned
+
+
+def markdown_renderer() -> Any:
+    global _MARKDOWN_RENDERER
+    if MarkdownIt is None:
+        raise ConfigError(
+            "缺少 Python 依赖 markdown-it-py。请先运行: python3 -m pip install -r requirements.txt"
+        )
+    if _MARKDOWN_RENDERER is None:
+        _MARKDOWN_RENDERER = MarkdownIt(
+            "commonmark",
+            {
+                "html": False,
+                "breaks": True,
+            },
+        ).enable("table")
+    return _MARKDOWN_RENDERER
 
 
 def markdown_to_html(markdown: str) -> str:
-    lines = markdown.splitlines()
-    output: list[str] = []
-    paragraph: list[str] = []
-    list_type: str | None = None
-    index = 0
-
-    def flush_paragraph() -> None:
-        nonlocal paragraph
-        if paragraph:
-            output.append("<p>" + "<br>".join(inline_markdown(line) for line in paragraph) + "</p>")
-            paragraph = []
-
-    def close_list() -> None:
-        nonlocal list_type
-        if list_type:
-            output.append(f"</{list_type}>")
-            list_type = None
-
-    def open_list(tag: str) -> None:
-        nonlocal list_type
-        if list_type != tag:
-            close_list()
-            output.append(f"<{tag}>")
-            list_type = tag
-
-    def flush_blocks() -> None:
-        flush_paragraph()
-        close_list()
-
-    while index < len(lines):
-        line = lines[index]
-        stripped = line.strip()
-
-        if stripped == "":
-            flush_blocks()
-            index += 1
-            continue
-
-        if stripped.startswith("```"):
-            flush_blocks()
-            fence_label = stripped[3:].strip()
-            code_lines: list[str] = []
-            index += 1
-            while index < len(lines) and not lines[index].strip().startswith("```"):
-                code_lines.append(lines[index])
-                index += 1
-            if index < len(lines):
-                index += 1
-            language_class = f' class="language-{html.escape(fence_label)}"' if fence_label else ""
-            output.append(
-                f"<pre><code{language_class}>"
-                + html.escape("\n".join(code_lines))
-                + "</code></pre>"
-            )
-            continue
-
-        if is_table_start(lines, index):
-            flush_blocks()
-            table_lines = [lines[index], lines[index + 1]]
-            index += 2
-            while index < len(lines) and "|" in lines[index]:
-                table_lines.append(lines[index])
-                index += 1
-            output.append(table_to_html(table_lines))
-            continue
-
-        heading = re.match(r"^(#{1,6})\s+(.+)$", line)
-        if heading:
-            flush_blocks()
-            level = len(heading.group(1))
-            output.append(f"<h{level}>{inline_markdown(heading.group(2).strip())}</h{level}>")
-            index += 1
-            continue
-
-        if re.match(r"^[-*_]{3,}$", stripped):
-            flush_blocks()
-            output.append("<hr>")
-            index += 1
-            continue
-
-        quote = re.match(r"^>\s?(.*)$", line)
-        if quote:
-            flush_blocks()
-            output.append(f"<blockquote>{inline_markdown(quote.group(1))}</blockquote>")
-            index += 1
-            continue
-
-        unordered = re.match(r"^\s*[-*]\s+(.*)$", line)
-        if unordered:
-            flush_paragraph()
-            open_list("ul")
-            output.append(f"<li>{inline_markdown(unordered.group(1))}</li>")
-            index += 1
-            continue
-
-        ordered = re.match(r"^\s*\d+\.\s+(.*)$", line)
-        if ordered:
-            flush_paragraph()
-            open_list("ol")
-            output.append(f"<li>{inline_markdown(ordered.group(1))}</li>")
-            index += 1
-            continue
-
-        close_list()
-        paragraph.append(line)
-        index += 1
-
-    flush_blocks()
-    return "\n".join(output)
-
-
-def is_table_start(lines: list[str], index: int) -> bool:
-    if index + 1 >= len(lines):
-        return False
-    header = lines[index]
-    separator = lines[index + 1].strip()
-    if "|" not in header or "|" not in separator:
-        return False
-    return bool(re.match(r"^\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?$", separator))
-
-
-def split_table_row(line: str) -> list[str]:
-    row = line.strip()
-    if row.startswith("|"):
-        row = row[1:]
-    if row.endswith("|"):
-        row = row[:-1]
-    return [cell.strip() for cell in row.split("|")]
-
-
-def table_to_html(lines: list[str]) -> str:
-    header = split_table_row(lines[0])
-    rows = [split_table_row(line) for line in lines[2:]]
-    parts = ["<table>", "<thead><tr>"]
-    parts.extend(f"<th>{inline_markdown(cell)}</th>" for cell in header)
-    parts.append("</tr></thead>")
-    if rows:
-        parts.append("<tbody>")
-        for row in rows:
-            parts.append("<tr>")
-            parts.extend(f"<td>{inline_markdown(cell)}</td>" for cell in row)
-            parts.append("</tr>")
-        parts.append("</tbody>")
-    parts.append("</table>")
-    return "".join(parts)
+    return markdown_renderer().render(markdown).strip()
 
 
 def log(message: str) -> None:
@@ -704,6 +613,7 @@ def sync(args: argparse.Namespace) -> int:
     dirs = parent_dirs_for(files)
     state = load_state(state_path, root_note_id)
     items = state["items"]
+    orphaned = find_orphaned_paths(items, current_source_paths(files, dirs))
 
     print(f"Repository: {REPO_ROOT}")
     print(f"Markdown files: {len(files)}")
@@ -719,6 +629,7 @@ def sync(args: argparse.Namespace) -> int:
         root_note_id=root_note_id,
         dry_run=args.dry_run,
         rebuild_state=args.rebuild_state,
+        prune_orphans=args.prune_orphans,
         content_template_version=CONTENT_TEMPLATE_VERSION,
         timeout=args.timeout,
         retries=args.retries,
@@ -770,6 +681,25 @@ def sync(args: argparse.Namespace) -> int:
             print(f"  - {path}")
         if len(changed_notes) > 50:
             print(f"  ... and {len(changed_notes) - 50} more")
+        if orphaned:
+            if args.prune_orphans:
+                print("Orphaned Trilium notes that would be deleted:")
+            else:
+                print("Orphaned Trilium notes were left untouched:")
+            for path in orphaned[:50]:
+                item = items[path]
+                event_logger.record(
+                    "dry-run" if args.prune_orphans else "orphan",
+                    action="prune" if args.prune_orphans else "leave-untouched",
+                    kind=item.get("kind"),
+                    path=path,
+                    title=item.get("title"),
+                    note_id=item.get("noteId"),
+                    reason="missing-source-path",
+                )
+                print(f"  - {path}")
+            if len(orphaned) > 50:
+                print(f"  ... and {len(orphaned) - 50} more")
         event_logger.record(
             "summary",
             dry_run=True,
@@ -777,6 +707,8 @@ def sync(args: argparse.Namespace) -> int:
             created=0,
             updated=0,
             skipped=len(files) + len(dirs) - len(changed_notes),
+            orphaned=len(orphaned),
+            pruned=0,
         )
         return 0
 
@@ -943,23 +875,27 @@ def sync(args: argparse.Namespace) -> int:
                     reason="unchanged",
                 )
 
-        current_paths = {relative_path(path) for path in files} | {relative_path(path) for path in dirs}
-        orphaned = sorted(path for path in items if path not in current_paths)
+        orphaned = find_orphaned_paths(items, current_source_paths(files, dirs))
+        pruned = 0
         if orphaned:
-            log("Orphaned Trilium notes were left untouched:")
-            for path in orphaned[:50]:
-                item = items[path]
-                event_logger.record(
-                    "orphan",
-                    kind=item.get("kind"),
-                    path=path,
-                    title=item.get("title"),
-                    note_id=item.get("noteId"),
-                    reason="missing-source-path",
-                )
-                log(f"  - {path}")
-            if len(orphaned) > 50:
-                log(f"  ... and {len(orphaned) - 50} more")
+            if args.prune_orphans:
+                log("Pruning orphaned Trilium notes:")
+                pruned = prune_orphans(client, state, orphaned, state_path, event_logger)
+            else:
+                log("Orphaned Trilium notes were left untouched:")
+                for path in orphaned[:50]:
+                    item = items[path]
+                    event_logger.record(
+                        "orphan",
+                        kind=item.get("kind"),
+                        path=path,
+                        title=item.get("title"),
+                        note_id=item.get("noteId"),
+                        reason="missing-source-path",
+                    )
+                    log(f"  - {path}")
+                if len(orphaned) > 50:
+                    log(f"  ... and {len(orphaned) - 50} more")
 
         state["rootNoteId"] = root_note_id
         state["lastSyncedAt"] = now_iso()
@@ -973,8 +909,12 @@ def sync(args: argparse.Namespace) -> int:
             skipped=skipped,
             skipped_dirs=skipped_dirs,
             orphaned=len(orphaned),
+            pruned=pruned,
         )
-        log(f"Done. created={created}, updated={updated}, skipped={skipped}")
+        if pruned:
+            log(f"Done. created={created}, updated={updated}, skipped={skipped}, pruned={pruned}")
+        else:
+            log(f"Done. created={created}, updated={updated}, skipped={skipped}")
         return 0
     except Exception as exc:
         event_logger.record("error", error_type=type(exc).__name__, error=str(exc))
@@ -1028,6 +968,11 @@ def build_parser() -> argparse.ArgumentParser:
         "--rebuild-state",
         action="store_true",
         help="Scan Trilium tree and rebuild local noteId mapping from sync metadata boxes.",
+    )
+    parser.add_argument(
+        "--prune-orphans",
+        action="store_true",
+        help="Delete Trilium notes whose source paths no longer exist locally, and remove them from state.",
     )
     return parser
 
