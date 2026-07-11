@@ -67,13 +67,14 @@ Expected: 不出现周次、财务报表书籍和强制的一周一本安排。
 ### Task 3: 统一资源索引和执行状态
 
 **Files:**
-- Modify: `2-Resources/100天读书计划.md`
+- Delete: `2-Resources/100天读书计划.md`
+- Delete: `2-Resources/courses.md`
 - Modify: `2-Resources/reading-list.md`
 - Modify: `1-Areas/_index.md`
 
-- [x] **Step 1: 将 100 天计划标为历史计划**
+- [x] **Step 1: 删除被替代和无内容的资源**
 
-在标题下增加醒目说明：该计划创建于早期阶段，已停止执行；理财和认知以两份新版 roadmap 为准；保留正文仅用于回顾。
+删除已被两份新版 roadmap 完全替代的 100 天读书计划，并删除没有记录任何课程、也没有其他文件引用的课程清单空表。
 
 - [x] **Step 2: 把 reading-list 改为当前状态追踪器**
 
@@ -85,9 +86,9 @@ Expected: 不出现周次、财务报表书籍和强制的一周一本安排。
 
 - [x] **Step 4: 验证唯一权威来源**
 
-Run: `rg -n "等待启动第一个学习项目|100 天内读完|当前主线" '1-Areas/_index.md' '2-Resources/100天读书计划.md' '2-Resources/reading-list.md'`
+Run: `rg -n "等待启动第一个学习项目|当前主线" '1-Areas/_index.md' '2-Resources/reading-list.md'`
 
-Expected: 领域索引不再出现“等待启动”；100 天计划明确停止执行；阅读清单包含两条当前主线记录。
+Expected: 领域索引不再出现“等待启动”；阅读清单包含两条当前主线记录；两个已删除资源不存在。
 
 ### Task 4: 标记历史执行材料并修正文档事实
 
@@ -132,7 +133,7 @@ Expected: 无输出。
 
 - [x] **Step 1: 追加本次会话记录**
 
-在 SESSION-LOG 末尾追加新会话：记录两条路线取消时间限制、采用阶段闸门、旧 100 天计划停止执行、历史文件只加标识不删除。
+在 SESSION-LOG 末尾追加新会话：记录两条路线取消时间限制、采用阶段闸门、旧 100 天计划和课程空表删除、其他历史文件只加标识不删除。
 
 - [x] **Step 2: 更新稳定项目决策记忆**
 
