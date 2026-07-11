@@ -20,6 +20,7 @@ __pycache__/
 
 电子书/
 .playwright-mcp/
+.worktrees/
 
 # Local Trilium sync logs and secrets
 .trilium-sync-logs/
