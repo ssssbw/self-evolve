@@ -36,3 +36,5 @@ Recent history uses concise conventional-style prefixes, for example `init:` and
 ## Agent-Specific Instructions
 
 Before making repository changes, read `README.md` and relevant `.ai/` context when available. Keep edits narrowly scoped, avoid reorganizing unrelated notes, and do not overwrite existing personal content unless explicitly requested.
+
+For learning coaching, homework review, open discussion, or weekly review requests, read `.ai/LEARNING-WORKFLOW.md` completely before responding. Treat that file as the single source of truth for the learning workflow.
