@@ -65,7 +65,7 @@
 
 ### 标注为历史或旧基线
 
-- `0-Projects/P001-软件开发能力提升/first-month-calendar.md` 的日期已经过去，增加旧计划说明，不删除原日历。
+- `0-Projects/P001-基础重建/first-month-calendar.md` 的日期已经过去，增加旧计划说明，不删除原日历。
 - `4-Journal/weekly/example-weekly-review.md` 属于早期示例，增加历史示例说明，避免其中“开始读《小狗钱钱》”被误认为当前任务。
 - `1-Areas/A1-技术/roadmap.md` 的每日 1.5-2 小时建议与当前 `2121` 节奏不一致；只增加“执行以当前项目和周计划为准”的说明，不在本次重写技术路线。
 

@@ -21,9 +21,9 @@
 | 05/03 | 周六 | 休息 | 自由安排，可以补漏或休息 | — | — |
 
 **本周作业：**
-- 作业 #001：`5-Playground/homework/001-你写的代码计算机在做什么.md`
-- 作业 #002：`5-Playground/homework/002-设计模式单例练习.md`
-- 讨论题 #001：`5-Playground/discussions/001-AI时代学底层还有意义吗.md`
+- 作业 #001：`5-Playground/P001-基础重建/CSAPP/homework/001-你写的代码计算机在做什么.md`
+- 作业 #002：`5-Playground/P001-基础重建/设计模式与架构/homework/002-设计模式单例练习.md`
+- 讨论题 #001：`5-Playground/P001-基础重建/CSAPP/discussions/001-AI时代学底层还有意义吗.md`
 
 ---
 
