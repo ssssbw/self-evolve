@@ -7,183 +7,213 @@
       "templateVersion": 3,
       "title": "0-Projects"
     },
-    "0-Projects/P001-软件开发能力提升": {
+    "0-Projects/P001-基础重建": {
       "kind": "dir",
-      "lastSyncedAt": "2026-07-11T17:06:13+08:00",
-      "noteId": "lRERaxKfx3sj",
+      "lastSyncedAt": "2026-07-15T15:55:22+08:00",
+      "noteId": "xxkfTNKg0QS2",
       "templateVersion": 3,
-      "title": "P001-软件开发能力提升"
+      "title": "P001-基础重建"
     },
-    "0-Projects/P001-软件开发能力提升/first-month-calendar.md": {
-      "hash": "1667aecc35cccb37a89d917fa8032195c09552fef64e95e0ad9de135b90b2ee0",
+    "0-Projects/P001-基础重建/first-month-calendar.md": {
+      "hash": "9e9de63168d493726e0be20892158e900d9423297d5cdb8b2df7fcde3a7a387e",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:06:47+08:00",
-      "noteId": "T3w0nsdddXb0",
+      "lastSyncedAt": "2026-07-15T15:55:50+08:00",
+      "noteId": "521KoMMmnE7F",
       "templateVersion": 3,
       "title": "first-month-calendar"
     },
-    "0-Projects/P001-软件开发能力提升/labs": {
+    "0-Projects/P001-基础重建/labs": {
       "kind": "dir",
-      "lastSyncedAt": "2026-07-11T17:06:30+08:00",
-      "noteId": "AE5P3Sfm4uEF",
+      "lastSyncedAt": "2026-07-15T15:55:33+08:00",
+      "noteId": "nGw9KmvWc2Es",
       "templateVersion": 3,
       "title": "labs"
     },
-    "0-Projects/P001-软件开发能力提升/labs/bomb-lab-guide.md": {
+    "0-Projects/P001-基础重建/labs/bomb-lab-guide.md": {
       "hash": "61a1aeacdf1d5e43c74538b05804d9951700ea73e454fa4c89908d546696ebad",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:06:48+08:00",
-      "noteId": "zOCfwNSRvaZR",
+      "lastSyncedAt": "2026-07-15T15:55:52+08:00",
+      "noteId": "Yrxej1hYd8kN",
       "templateVersion": 3,
       "title": "bomb-lab-guide"
     },
-    "0-Projects/P001-软件开发能力提升/labs/cache-lab-guide.md": {
+    "0-Projects/P001-基础重建/labs/cache-lab-guide.md": {
       "hash": "df2faac7b09362ec5b8b828b1cef1e05038da766247c7e21cffef09a7fc40396",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:06:49+08:00",
-      "noteId": "pkOeiqBvxqO3",
+      "lastSyncedAt": "2026-07-15T15:55:53+08:00",
+      "noteId": "6hqP3NcE9P7a",
       "templateVersion": 3,
       "title": "cache-lab-guide"
     },
-    "0-Projects/P001-软件开发能力提升/labs/data-lab-guide.md": {
+    "0-Projects/P001-基础重建/labs/data-lab-guide.md": {
       "hash": "abf614c13c11ba4a4b4cfea0bede94bffa2c2c88f6849fa9db9af9166aa92af5",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:06:50+08:00",
-      "noteId": "1ifa9w4fbpF0",
+      "lastSyncedAt": "2026-07-15T15:55:54+08:00",
+      "noteId": "Z4xbOtP0NJ1f",
       "templateVersion": 3,
       "title": "data-lab-guide"
     },
-    "0-Projects/P001-软件开发能力提升/labs/other-labs-guide.md": {
+    "0-Projects/P001-基础重建/labs/other-labs-guide.md": {
       "hash": "025f37305b6e3d81937262f38111441fddf4744cd272e60b5880b365a905b149",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:06:51+08:00",
-      "noteId": "MV9YI7z2cGSh",
+      "lastSyncedAt": "2026-07-15T15:55:56+08:00",
+      "noteId": "EyBpjSaSxiT3",
       "templateVersion": 3,
       "title": "other-labs-guide"
     },
-    "0-Projects/P001-软件开发能力提升/notes": {
+    "0-Projects/P001-基础重建/notes": {
       "kind": "dir",
-      "lastSyncedAt": "2026-07-11T17:06:32+08:00",
-      "noteId": "RjuRIStmAzKe",
+      "lastSyncedAt": "2026-07-15T15:55:34+08:00",
+      "noteId": "gK2T4Mnde9qE",
       "templateVersion": 3,
       "title": "notes"
     },
-    "0-Projects/P001-软件开发能力提升/notes/_index.md": {
+    "0-Projects/P001-基础重建/notes/_index.md": {
       "hash": "20e0893b50b2db5b7d5e92c22d45bbb5f0032eaf64d422317f43634a48603aab",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:06:53+08:00",
-      "noteId": "CBMBn1ktfzeJ",
+      "lastSyncedAt": "2026-07-15T15:55:58+08:00",
+      "noteId": "OvxwOXEdJBPo",
       "templateVersion": 3,
       "title": "_index"
     },
-    "0-Projects/P001-软件开发能力提升/notes/ch01-计算机系统漫游.md": {
+    "0-Projects/P001-基础重建/notes/ch01-计算机系统漫游.md": {
       "hash": "d482d16fc629e5351dbe99ad624733568fcd518d534cd455aa525ef64010730d",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:06:54+08:00",
-      "noteId": "uxd4hyQHnVG4",
+      "lastSyncedAt": "2026-07-15T15:55:59+08:00",
+      "noteId": "ABpaUVGtP9YG",
       "templateVersion": 3,
       "title": "ch01-计算机系统漫游"
     },
-    "0-Projects/P001-软件开发能力提升/notes/ch02-信息的表示和处理.md": {
+    "0-Projects/P001-基础重建/notes/ch02-信息的表示和处理.md": {
       "hash": "ca02e24f87d17bbdccaedbed17179027f59eebb69ee2672492d194437f8ba6ef",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:06:55+08:00",
-      "noteId": "GuZetabI7RwK",
+      "lastSyncedAt": "2026-07-15T15:56:01+08:00",
+      "noteId": "dl9OIPuPRf5R",
       "templateVersion": 3,
       "title": "ch02-信息的表示和处理"
     },
-    "0-Projects/P001-软件开发能力提升/notes/ch03-程序的机器级表示.md": {
+    "0-Projects/P001-基础重建/notes/ch03-程序的机器级表示.md": {
       "hash": "035a5c28535c654a49dab3989d98faa717a61096c57a67aede7578f557ce286a",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:06:56+08:00",
-      "noteId": "n0M89Dtubhxj",
+      "lastSyncedAt": "2026-07-15T15:56:02+08:00",
+      "noteId": "oi7RtaPZl5D5",
       "templateVersion": 3,
       "title": "ch03-程序的机器级表示"
     },
-    "0-Projects/P001-软件开发能力提升/notes/ch04-处理器体系结构.md": {
+    "0-Projects/P001-基础重建/notes/ch04-处理器体系结构.md": {
       "hash": "d2c54e98546f194d755821c4bff4cb6cb8d3957d9eeed13d9805638e22e1b6f7",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:06:58+08:00",
-      "noteId": "CSJar4Y2xzpq",
+      "lastSyncedAt": "2026-07-15T15:56:04+08:00",
+      "noteId": "6iv8k0MX9JT5",
       "templateVersion": 3,
       "title": "ch04-处理器体系结构"
     },
-    "0-Projects/P001-软件开发能力提升/notes/ch05-优化程序性能.md": {
+    "0-Projects/P001-基础重建/notes/ch05-优化程序性能.md": {
       "hash": "151e644d3eb453cf77d23ecd44009ab6046fd60fddd90d9dce3888bca2dfcab0",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:06:59+08:00",
-      "noteId": "NzysAEFI4U3Q",
+      "lastSyncedAt": "2026-07-15T15:56:06+08:00",
+      "noteId": "tjJ6SG5ebd8R",
       "templateVersion": 3,
       "title": "ch05-优化程序性能"
     },
-    "0-Projects/P001-软件开发能力提升/notes/ch06-存储器层次结构.md": {
+    "0-Projects/P001-基础重建/notes/ch06-存储器层次结构.md": {
       "hash": "380b1d683cd78d307f67fb417de9086c798df6b25582507306d8bf38c4951eca",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:07:00+08:00",
-      "noteId": "ChT2VwAXB3HJ",
+      "lastSyncedAt": "2026-07-15T15:56:08+08:00",
+      "noteId": "ZVBeUgiBgPgk",
       "templateVersion": 3,
       "title": "ch06-存储器层次结构"
     },
-    "0-Projects/P001-软件开发能力提升/notes/ch07-链接.md": {
+    "0-Projects/P001-基础重建/notes/ch07-链接.md": {
       "hash": "406400ae27758ece1cfafe28d8511263caf2911995d28aef0b4b0a253449d74c",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:07:02+08:00",
-      "noteId": "011KEqtvmanD",
+      "lastSyncedAt": "2026-07-15T15:56:09+08:00",
+      "noteId": "MmmDmu9DiKDr",
       "templateVersion": 3,
       "title": "ch07-链接"
     },
-    "0-Projects/P001-软件开发能力提升/notes/ch08-异常控制流.md": {
+    "0-Projects/P001-基础重建/notes/ch08-异常控制流.md": {
       "hash": "032322c18c57cca83301ab25daf8797217579090dc69c9cf78a70e8420c88eb8",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:07:04+08:00",
-      "noteId": "ZHtSBOL5cQ5N",
+      "lastSyncedAt": "2026-07-15T15:56:11+08:00",
+      "noteId": "RLlw75MgIMhP",
       "templateVersion": 3,
       "title": "ch08-异常控制流"
     },
-    "0-Projects/P001-软件开发能力提升/notes/ch09-虚拟内存.md": {
+    "0-Projects/P001-基础重建/notes/ch09-虚拟内存.md": {
       "hash": "496440810a24e9e036a5379678c5250f6cf0ba2c44644e9bcd8de0357680ff7b",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:07:05+08:00",
-      "noteId": "rT2hhL86iT7b",
+      "lastSyncedAt": "2026-07-15T15:56:12+08:00",
+      "noteId": "NbNhsk9U6rRy",
       "templateVersion": 3,
       "title": "ch09-虚拟内存"
     },
-    "0-Projects/P001-软件开发能力提升/notes/ch10-系统级IO.md": {
+    "0-Projects/P001-基础重建/notes/ch10-系统级IO.md": {
       "hash": "9048fd0d5db8a2031a8695baadeb65134d21497ee595f000e2ddb08c853b6be5",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:07:07+08:00",
-      "noteId": "7OKCXjrY2ztX",
+      "lastSyncedAt": "2026-07-15T15:56:14+08:00",
+      "noteId": "wrM7Oj9uVfJd",
       "templateVersion": 3,
       "title": "ch10-系统级IO"
     },
-    "0-Projects/P001-软件开发能力提升/notes/ch11-网络编程.md": {
+    "0-Projects/P001-基础重建/notes/ch11-网络编程.md": {
       "hash": "e2fea9d35fd4353fd5e15483d3a9622a5b006570396145f4d197d99ef59af9ef",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:07:08+08:00",
-      "noteId": "eSHKmDkRljDT",
+      "lastSyncedAt": "2026-07-15T15:56:15+08:00",
+      "noteId": "kZR27qIgYEEo",
       "templateVersion": 3,
       "title": "ch11-网络编程"
     },
-    "0-Projects/P001-软件开发能力提升/notes/ch12-并发编程.md": {
+    "0-Projects/P001-基础重建/notes/ch12-并发编程.md": {
       "hash": "fb43b56fff7140c96b98639113ab64dd2c4d15405e812dc666746c23d9d9f8db",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:07:10+08:00",
-      "noteId": "yykuU65VQ6cE",
+      "lastSyncedAt": "2026-07-15T15:56:16+08:00",
+      "noteId": "hnLe6KHB4QXK",
       "templateVersion": 3,
       "title": "ch12-并发编程"
     },
-    "0-Projects/P001-软件开发能力提升/plan.md": {
-      "hash": "2c55f0ad9fe10247f2f4ffbd51d65ef0c9701996b00608f42f76ddc2722d5b0b",
+    "0-Projects/P001-基础重建/plan.md": {
+      "hash": "9ec0383009111ce4d1a8a3222e2240f9a83c34522652b904f3f32fa45a155c78",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:07:11+08:00",
-      "noteId": "uxokZDBOxoQy",
+      "lastSyncedAt": "2026-07-15T15:56:17+08:00",
+      "noteId": "AxErkyoNZsia",
+      "templateVersion": 3,
+      "title": "plan"
+    },
+    "0-Projects/P002-财务底盘与财富行为": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-15T15:55:24+08:00",
+      "noteId": "0rKGKJyHrhOK",
+      "templateVersion": 3,
+      "title": "P002-财务底盘与财富行为"
+    },
+    "0-Projects/P002-财务底盘与财富行为/plan.md": {
+      "hash": "96a96c24d1db651ac352f4f9d93075a364f091ddf60441d13e8063c8127641f5",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-15T15:56:18+08:00",
+      "noteId": "ccr2vyWFbRoe",
+      "templateVersion": 3,
+      "title": "plan"
+    },
+    "0-Projects/P003-学习与执行": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-15T15:55:25+08:00",
+      "noteId": "Z8LTpNED6A9s",
+      "templateVersion": 3,
+      "title": "P003-学习与执行"
+    },
+    "0-Projects/P003-学习与执行/plan.md": {
+      "hash": "fe7d175edc9366b4fc99454c813a53dc0a32c2af69545075bb057365cf474f28",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-15T15:56:19+08:00",
+      "noteId": "Hc0a9xCdb8nR",
       "templateVersion": 3,
       "title": "plan"
     },
     "0-Projects/_index.md": {
-      "hash": "69618dda1e1f80c84cbccdbf9d4fe3cd44a13f1db5f754d20ef69f7629326d95",
+      "hash": "d70268b13cfc987b7b63c518fe31c1665862e1331503f5d1643ce064e4af6e68",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:07:13+08:00",
+      "lastSyncedAt": "2026-07-15T15:56:21+08:00",
       "noteId": "0AGTdkAFd6WS",
       "templateVersion": 3,
       "title": "_index"
@@ -701,9 +731,9 @@
       "title": "2026-W28"
     },
     "4-Journal/weekly/2026-W29.md": {
-      "hash": "a01002831342de25aac734b96a2ace0f73a4cfe2928329691c98673bc5cd5c4d",
+      "hash": "7e5f28e159d5e1a0913c4f35bac2dbfe6e1438475e390a8d3b4afc067acbde68",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:36+08:00",
+      "lastSyncedAt": "2026-07-15T15:56:22+08:00",
       "noteId": "1WFWALkKIz4z",
       "templateVersion": 3,
       "title": "2026-W29"
@@ -746,159 +776,285 @@
       "templateVersion": 3,
       "title": "5-Playground"
     },
-    "5-Playground/challenges": {
+    "5-Playground/P001-基础重建": {
       "kind": "dir",
-      "lastSyncedAt": "2026-07-11T17:06:26+08:00",
-      "noteId": "a4ca1t8180CQ",
+      "lastSyncedAt": "2026-07-15T15:55:29+08:00",
+      "noteId": "NjBkJzsadkG2",
       "templateVersion": 3,
-      "title": "challenges"
+      "title": "P001-基础重建"
     },
-    "5-Playground/challenges/README.md": {
-      "hash": "12fe3a2dfa2adf7bcb3a55272e3250f8e0132c9655dec12f1036eb63e57f3031",
+    "5-Playground/P001-基础重建/CSAPP": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-15T15:55:35+08:00",
+      "noteId": "MkLogk8jtYjw",
+      "templateVersion": 3,
+      "title": "CSAPP"
+    },
+    "5-Playground/P001-基础重建/CSAPP/README.md": {
+      "hash": "2b3194985a5cb20c3b06b7db1ceb3a87dc8d904ed5f4a4d783aba36145e46637",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:41+08:00",
-      "noteId": "pKaoa05jrBHC",
+      "lastSyncedAt": "2026-07-15T15:56:24+08:00",
+      "noteId": "wUjuJfYhk7yU",
       "templateVersion": 3,
       "title": "README"
     },
-    "5-Playground/discussions": {
+    "5-Playground/P001-基础重建/CSAPP/discussions": {
       "kind": "dir",
-      "lastSyncedAt": "2026-07-11T17:06:27+08:00",
-      "noteId": "8v0wO8QH1ZnF",
+      "lastSyncedAt": "2026-07-15T15:55:44+08:00",
+      "noteId": "fmYud4mzxfDI",
       "templateVersion": 3,
       "title": "discussions"
     },
-    "5-Playground/discussions/001-AI时代学底层还有意义吗.md": {
+    "5-Playground/P001-基础重建/CSAPP/discussions/001-AI时代学底层还有意义吗.md": {
       "hash": "8960782b204106f898dfa553f8cb0fd5b3531e61fabc4c0c87469e7d933b3db1",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:42+08:00",
-      "noteId": "2RkJvsWUvNs4",
+      "lastSyncedAt": "2026-07-15T15:56:25+08:00",
+      "noteId": "nL5tmsdAWgFo",
       "templateVersion": 3,
       "title": "001-AI时代学底层还有意义吗"
     },
-    "5-Playground/discussions/002-为什么Dart没有unsigned-int.md": {
+    "5-Playground/P001-基础重建/CSAPP/discussions/002-为什么Dart没有unsigned-int.md": {
       "hash": "e5d93155cc2913f0f7669bc981d2c83c33599ae4d0598a9a4981b267e6289b7e",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:43+08:00",
-      "noteId": "4an4STVi8TIN",
+      "lastSyncedAt": "2026-07-15T15:56:26+08:00",
+      "noteId": "mex0JiZ2OGa2",
       "templateVersion": 3,
       "title": "002-为什么Dart没有unsigned-int"
     },
-    "5-Playground/discussions/003-Flutter的Widget为什么是immutable的.md": {
-      "hash": "8fdf38744b740e64df4b23bcd20d9f419d6444de69e067472420407e0c355920",
-      "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:44+08:00",
-      "noteId": "1mqyIqhTgSYj",
-      "templateVersion": 3,
-      "title": "003-Flutter的Widget为什么是immutable的"
-    },
-    "5-Playground/discussions/004-不要过早优化.md": {
+    "5-Playground/P001-基础重建/CSAPP/discussions/004-不要过早优化.md": {
       "hash": "9127642a7d5c006eeca9327bc068ceb3b9dc109f3d6da2ae19a08852a672ce75",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:45+08:00",
-      "noteId": "INr9rmTLx5zp",
+      "lastSyncedAt": "2026-07-15T15:56:28+08:00",
+      "noteId": "2JqSC40kZn7r",
       "templateVersion": 3,
       "title": "004-不要过早优化"
     },
-    "5-Playground/discussions/005-如果你是框架设计师.md": {
-      "hash": "1e4ec12d694c49ee24b2c5c0c73427376c74b8c18d3c9d976deeb3ae0b6154d1",
-      "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:47+08:00",
-      "noteId": "rDUvbVn2y9v5",
-      "templateVersion": 3,
-      "title": "005-如果你是框架设计师"
-    },
-    "5-Playground/discussions/README.md": {
-      "hash": "b110bcd0af11dca77eadf6b944ba7819fd4ca82eda91d9e936711ac6e0153ab9",
-      "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:48+08:00",
-      "noteId": "Cu1Z2Cu3Ghg2",
-      "templateVersion": 3,
-      "title": "README"
-    },
-    "5-Playground/homework": {
+    "5-Playground/P001-基础重建/CSAPP/homework": {
       "kind": "dir",
-      "lastSyncedAt": "2026-07-11T17:06:28+08:00",
-      "noteId": "zQNkdhv2PzTP",
+      "lastSyncedAt": "2026-07-15T15:55:46+08:00",
+      "noteId": "k8EIWq2luW74",
       "templateVersion": 3,
       "title": "homework"
     },
-    "5-Playground/homework/001-你写的代码计算机在做什么.md": {
+    "5-Playground/P001-基础重建/CSAPP/homework/001-你写的代码计算机在做什么.md": {
       "hash": "25dc17349b7289fd386eb7bbd0599703d1376469ef5f62c11799f9b8105ba818",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:49+08:00",
-      "noteId": "PhX8kSSNaCuG",
+      "lastSyncedAt": "2026-07-15T15:56:30+08:00",
+      "noteId": "vfAjNmfKZ68G",
       "templateVersion": 3,
       "title": "001-你写的代码计算机在做什么"
     },
-    "5-Playground/homework/002-设计模式单例练习.md": {
-      "hash": "a89148dd127479b177a03ad58ce6634cdd714a97709c11e33e00d6cfe3fc5028",
-      "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:51+08:00",
-      "noteId": "VhMEqEbiW7Te",
-      "templateVersion": 3,
-      "title": "002-设计模式单例练习"
-    },
-    "5-Playground/homework/003-整数的秘密.md": {
+    "5-Playground/P001-基础重建/CSAPP/homework/003-整数的秘密.md": {
       "hash": "d988246b0b0154f864ced08a0c333e97ed4a8bfe6a85f3239055d686bf823262",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:52+08:00",
-      "noteId": "19s5H6KSk8i6",
+      "lastSyncedAt": "2026-07-15T15:56:31+08:00",
+      "noteId": "dS4i1z1v6Cry",
       "templateVersion": 3,
       "title": "003-整数的秘密"
     },
-    "5-Playground/homework/004-工厂模式练习.md": {
-      "hash": "ac6b98b760f08d832c7602e0358017c97b40c08e60f5e068e037ea770cdee687",
-      "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:53+08:00",
-      "noteId": "jtwc23inhOyV",
-      "templateVersion": 3,
-      "title": "004-工厂模式练习"
-    },
-    "5-Playground/homework/005-读懂汇编.md": {
+    "5-Playground/P001-基础重建/CSAPP/homework/005-读懂汇编.md": {
       "hash": "5fa9716bd8fef1d3a17bec6590a3e1b50904e4b7b91d7471931a5ef04b644757",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:54+08:00",
-      "noteId": "g24y1XUYCr1z",
+      "lastSyncedAt": "2026-07-15T15:56:32+08:00",
+      "noteId": "gFUOMNVJQziH",
       "templateVersion": 3,
       "title": "005-读懂汇编"
     },
-    "5-Playground/homework/006-观察者与策略练习.md": {
-      "hash": "fb8b3713badaee6244bb2cbff5095fe93a2eda6ebf5423cd5541e746cd063f46",
-      "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:55+08:00",
-      "noteId": "poRFvAgIMcmp",
-      "templateVersion": 3,
-      "title": "006-观察者与策略练习"
-    },
-    "5-Playground/homework/007-缓存实战.md": {
+    "5-Playground/P001-基础重建/CSAPP/homework/007-缓存实战.md": {
       "hash": "5c55af0b8ed7b74fb18dff50e6a4ca6702ce9082223ee2541fa0d5cb1b7a5448",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:57+08:00",
-      "noteId": "iGvOlVCKb8ed",
+      "lastSyncedAt": "2026-07-15T15:56:34+08:00",
+      "noteId": "EJAUmV1rbxnH",
       "templateVersion": 3,
       "title": "007-缓存实战"
     },
-    "5-Playground/homework/008-装饰器与组合练习.md": {
+    "5-Playground/P001-基础重建/README.md": {
+      "hash": "20290fd576fe9c1536e49f2f9a96d26e3b02d63e15dae66e467a16502a54e23e",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-15T15:56:35+08:00",
+      "noteId": "OpALRW4VKinc",
+      "templateVersion": 3,
+      "title": "README"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-15T15:55:36+08:00",
+      "noteId": "2O9h1ZzmWD6X",
+      "templateVersion": 3,
+      "title": "设计模式与架构"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/README.md": {
+      "hash": "0028aaf74c44e2fd3933f51681069447f97c82a586835b9ec3bbb318a954cc03",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-15T15:56:36+08:00",
+      "noteId": "5yx06flBO3C9",
+      "templateVersion": 3,
+      "title": "README"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/discussions": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-15T15:55:47+08:00",
+      "noteId": "C48wxR68qNN7",
+      "templateVersion": 3,
+      "title": "discussions"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/discussions/003-Flutter的Widget为什么是immutable的.md": {
+      "hash": "8fdf38744b740e64df4b23bcd20d9f419d6444de69e067472420407e0c355920",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-15T15:56:37+08:00",
+      "noteId": "7NfgZRHSUm2k",
+      "templateVersion": 3,
+      "title": "003-Flutter的Widget为什么是immutable的"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/discussions/005-如果你是框架设计师.md": {
+      "hash": "1e4ec12d694c49ee24b2c5c0c73427376c74b8c18d3c9d976deeb3ae0b6154d1",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-15T15:56:40+08:00",
+      "noteId": "yaxKZxNabqS9",
+      "templateVersion": 3,
+      "title": "005-如果你是框架设计师"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-15T15:55:48+08:00",
+      "noteId": "aFtnJZxVvwuV",
+      "templateVersion": 3,
+      "title": "homework"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/002-设计模式单例练习.md": {
+      "hash": "a89148dd127479b177a03ad58ce6634cdd714a97709c11e33e00d6cfe3fc5028",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-15T15:56:41+08:00",
+      "noteId": "0emGX03zoKZ4",
+      "templateVersion": 3,
+      "title": "002-设计模式单例练习"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/004-工厂模式练习.md": {
+      "hash": "ac6b98b760f08d832c7602e0358017c97b40c08e60f5e068e037ea770cdee687",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-15T15:56:43+08:00",
+      "noteId": "dXPCUvKb5x0l",
+      "templateVersion": 3,
+      "title": "004-工厂模式练习"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/006-观察者与策略练习.md": {
+      "hash": "fb8b3713badaee6244bb2cbff5095fe93a2eda6ebf5423cd5541e746cd063f46",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-15T15:56:45+08:00",
+      "noteId": "FBt8hefP5lrm",
+      "templateVersion": 3,
+      "title": "006-观察者与策略练习"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/008-装饰器与组合练习.md": {
       "hash": "658e74e80c36157ac5040a5b06502c6bd25234e079fe08082fcbf88872022927",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:58+08:00",
-      "noteId": "8pcmxsGAMq8B",
+      "lastSyncedAt": "2026-07-15T15:56:46+08:00",
+      "noteId": "nd2OvZ38HTpB",
       "templateVersion": 3,
       "title": "008-装饰器与组合练习"
     },
-    "5-Playground/homework/README.md": {
-      "hash": "bd9863c2612e0f0f53a3e5e8c931274dc9928cb3ef62650dc66caa26665eb2b1",
+    "5-Playground/P002-财务底盘与财富行为": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-15T15:55:30+08:00",
+      "noteId": "Wh2TPZ8spoFb",
+      "templateVersion": 3,
+      "title": "P002-财务底盘与财富行为"
+    },
+    "5-Playground/P002-财务底盘与财富行为/00-财务底盘": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-15T15:55:38+08:00",
+      "noteId": "joTAHsFewffi",
+      "templateVersion": 3,
+      "title": "00-财务底盘"
+    },
+    "5-Playground/P002-财务底盘与财富行为/00-财务底盘/README.md": {
+      "hash": "0a3591ad2b72fac618da68b8983cc3c32042d8728c08af7931ec05d5a59623fd",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:59+08:00",
-      "noteId": "78EtuXA6EqPi",
+      "lastSyncedAt": "2026-07-15T15:56:47+08:00",
+      "noteId": "0EWgubusewzq",
+      "templateVersion": 3,
+      "title": "README"
+    },
+    "5-Playground/P002-财务底盘与财富行为/01-金钱心理学": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-15T15:55:39+08:00",
+      "noteId": "40lVoOfXg3pC",
+      "templateVersion": 3,
+      "title": "01-金钱心理学"
+    },
+    "5-Playground/P002-财务底盘与财富行为/01-金钱心理学/README.md": {
+      "hash": "66ce56d52c9de878e8cc09a30a3fd260f1f169646370b4f4ce80db3ea86c6e1a",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-15T15:56:49+08:00",
+      "noteId": "5gI7bx07tUsT",
+      "templateVersion": 3,
+      "title": "README"
+    },
+    "5-Playground/P002-财务底盘与财富行为/01-金钱心理学/discussions": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-15T15:55:49+08:00",
+      "noteId": "2nyvfQRRBdhr",
+      "templateVersion": 3,
+      "title": "discussions"
+    },
+    "5-Playground/P002-财务底盘与财富行为/01-金钱心理学/discussions/006-不同经历能否导出相同的金钱原则.md": {
+      "hash": "630e361adb42c522831f8f91b06e662ccd30fbbc397fb37932b103c197a993c4",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-15T15:56:51+08:00",
+      "noteId": "LnnDlOSKim85",
+      "templateVersion": 3,
+      "title": "006-不同经历能否导出相同的金钱原则"
+    },
+    "5-Playground/P002-财务底盘与财富行为/README.md": {
+      "hash": "33bd1ccce8023905a7a3b3412a401b67b88e6bc021f94c5f20f403d3cc5626c8",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-15T15:56:52+08:00",
+      "noteId": "ufUXsVuHW0A2",
+      "templateVersion": 3,
+      "title": "README"
+    },
+    "5-Playground/P003-学习与执行": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-15T15:55:31+08:00",
+      "noteId": "nBhLBlrOZSN8",
+      "templateVersion": 3,
+      "title": "P003-学习与执行"
+    },
+    "5-Playground/P003-学习与执行/01-刻意练习": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-15T15:55:41+08:00",
+      "noteId": "WwVBgZPGGEbZ",
+      "templateVersion": 3,
+      "title": "01-刻意练习"
+    },
+    "5-Playground/P003-学习与执行/01-刻意练习/README.md": {
+      "hash": "f7b1d0842577943026b5e2dd8f26b53d6c0068e8b1648bf0cd056ef19782b056",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-15T15:56:53+08:00",
+      "noteId": "rbVC9CshgifK",
+      "templateVersion": 3,
+      "title": "README"
+    },
+    "5-Playground/P003-学习与执行/README.md": {
+      "hash": "75bdf7db5990687f672dd2e86016c51ed25f56050a4a31758b7c3fb404738008",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-15T15:56:54+08:00",
+      "noteId": "XX6CAfzGDhRX",
+      "templateVersion": 3,
+      "title": "README"
+    },
+    "5-Playground/README.md": {
+      "hash": "0603411b12b64c675460c316ab0d8ca3ea94b29e33df9484e7101df888ff7c08",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-15T15:56:55+08:00",
+      "noteId": "TGch0srvUaPc",
       "templateVersion": 3,
       "title": "README"
     },
     "README.md": {
-      "hash": "3e36b52fd211beccfde3fe15e991bee8d16dcce0c3c8f94002d92685c0781071",
+      "hash": "6d875d88d48eba7ae2ef6f5cd966954b3f4cb45c54cf30d735d0c04de2b6905d",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:09:00+08:00",
+      "lastSyncedAt": "2026-07-15T15:56:57+08:00",
       "noteId": "nFttSC4XKjp0",
       "templateVersion": 3,
       "title": "README"
@@ -926,9 +1082,9 @@
       "title": "一五计划"
     },
     "guideline/一五计划/2026-06-24_to_2027-03-24_阶段作战表.md": {
-      "hash": "58ab46c1b5c2668884f747d4e3f21fb79fa885096343f215d2c7c678dbed8b63",
+      "hash": "f0ac4024f930858268cf7a9ca7bb3a33b95c8ef39ec5f5ca529680a26f72cb08",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:09:05+08:00",
+      "lastSyncedAt": "2026-07-15T15:56:58+08:00",
       "noteId": "4hveRpUwiIjJ",
       "templateVersion": 3,
       "title": "2026-06-24_to_2027-03-24_阶段作战表"
@@ -942,9 +1098,9 @@
       "title": "_index"
     },
     "guideline/一五计划/第一个五年计划.md": {
-      "hash": "ed860944e3fc10e57bc7237dceace6a37d1045da0f6ba90fd93308995ac6a482",
+      "hash": "9821ea8cb687d5dd0b747528725fa269b7ea5f452eb119200cc192c259ea66fa",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:09:07+08:00",
+      "lastSyncedAt": "2026-07-15T15:56:59+08:00",
       "noteId": "A41CdOw75sPd",
       "templateVersion": 3,
       "title": "第一个五年计划"
@@ -958,7 +1114,7 @@
       "title": "二十年总纲"
     }
   },
-  "lastSyncedAt": "2026-07-11T17:09:08+08:00",
+  "lastSyncedAt": "2026-07-15T16:00:32+08:00",
   "rootNoteId": "IcJM4VdVG0zX",
   "version": 1
 }
