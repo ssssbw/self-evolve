@@ -15,9 +15,9 @@
       "title": "P001-基础重建"
     },
     "0-Projects/P001-基础重建/first-month-calendar.md": {
-      "hash": "9e9de63168d493726e0be20892158e900d9423297d5cdb8b2df7fcde3a7a387e",
+      "hash": "ab4be1a5ec9576fe90a00575293e4d87095e4c95b52e8f003e3dcc001980fa71",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:55:50+08:00",
+      "lastSyncedAt": "2026-07-15T17:57:55+08:00",
       "noteId": "521KoMMmnE7F",
       "templateVersion": 3,
       "title": "first-month-calendar"
@@ -821,13 +821,13 @@
       "templateVersion": 3,
       "title": "002-为什么Dart没有unsigned-int"
     },
-    "5-Playground/P001-基础重建/CSAPP/discussions/004-不要过早优化.md": {
-      "hash": "9127642a7d5c006eeca9327bc068ceb3b9dc109f3d6da2ae19a08852a672ce75",
+    "5-Playground/P001-基础重建/CSAPP/discussions/003-不要过早优化.md": {
+      "hash": "5dd334fce3350432034b0ae8445749db4a36676e72a6c6ccedb517ec25671e78",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:28+08:00",
-      "noteId": "2JqSC40kZn7r",
+      "lastSyncedAt": "2026-07-15T17:57:56+08:00",
+      "noteId": "HTVSnTXQI4As",
       "templateVersion": 3,
-      "title": "004-不要过早优化"
+      "title": "003-不要过早优化"
     },
     "5-Playground/P001-基础重建/CSAPP/homework": {
       "kind": "dir",
@@ -844,29 +844,29 @@
       "templateVersion": 3,
       "title": "001-你写的代码计算机在做什么"
     },
-    "5-Playground/P001-基础重建/CSAPP/homework/003-整数的秘密.md": {
-      "hash": "d988246b0b0154f864ced08a0c333e97ed4a8bfe6a85f3239055d686bf823262",
+    "5-Playground/P001-基础重建/CSAPP/homework/002-整数的秘密.md": {
+      "hash": "2918e053a1633d3fc8dd39d39a5b4510135650866aba7c8e96007395117f34f0",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:31+08:00",
-      "noteId": "dS4i1z1v6Cry",
+      "lastSyncedAt": "2026-07-15T17:57:59+08:00",
+      "noteId": "QmK4mzZ5S6jn",
       "templateVersion": 3,
-      "title": "003-整数的秘密"
+      "title": "002-整数的秘密"
     },
-    "5-Playground/P001-基础重建/CSAPP/homework/005-读懂汇编.md": {
-      "hash": "5fa9716bd8fef1d3a17bec6590a3e1b50904e4b7b91d7471931a5ef04b644757",
+    "5-Playground/P001-基础重建/CSAPP/homework/003-读懂汇编.md": {
+      "hash": "790c1c7bfe2e8b5bf2d16ba7be976840ffb20d9e5591dfcb043dc8c49c4c5027",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:32+08:00",
-      "noteId": "gFUOMNVJQziH",
+      "lastSyncedAt": "2026-07-15T17:58:00+08:00",
+      "noteId": "3Rq1wuAwFfzc",
       "templateVersion": 3,
-      "title": "005-读懂汇编"
+      "title": "003-读懂汇编"
     },
-    "5-Playground/P001-基础重建/CSAPP/homework/007-缓存实战.md": {
-      "hash": "5c55af0b8ed7b74fb18dff50e6a4ca6702ce9082223ee2541fa0d5cb1b7a5448",
+    "5-Playground/P001-基础重建/CSAPP/homework/004-缓存实战.md": {
+      "hash": "cdba56c4cfefb11b132b76ffdcac189fe47fc665f12ae70693df300f5b47d6ca",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:34+08:00",
-      "noteId": "EJAUmV1rbxnH",
+      "lastSyncedAt": "2026-07-15T17:58:02+08:00",
+      "noteId": "e9VxtjT104W1",
       "templateVersion": 3,
-      "title": "007-缓存实战"
+      "title": "004-缓存实战"
     },
     "5-Playground/P001-基础重建/README.md": {
       "hash": "20290fd576fe9c1536e49f2f9a96d26e3b02d63e15dae66e467a16502a54e23e",
@@ -898,21 +898,21 @@
       "templateVersion": 3,
       "title": "discussions"
     },
-    "5-Playground/P001-基础重建/设计模式与架构/discussions/003-Flutter的Widget为什么是immutable的.md": {
-      "hash": "8fdf38744b740e64df4b23bcd20d9f419d6444de69e067472420407e0c355920",
+    "5-Playground/P001-基础重建/设计模式与架构/discussions/001-Flutter的Widget为什么是immutable的.md": {
+      "hash": "380a51747d5c998fdec12b81bda3b89bf44cce6c4e671c7897595f9755b7c43d",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:37+08:00",
-      "noteId": "7NfgZRHSUm2k",
+      "lastSyncedAt": "2026-07-15T17:58:03+08:00",
+      "noteId": "rPMYwmKaolRr",
       "templateVersion": 3,
-      "title": "003-Flutter的Widget为什么是immutable的"
+      "title": "001-Flutter的Widget为什么是immutable的"
     },
-    "5-Playground/P001-基础重建/设计模式与架构/discussions/005-如果你是框架设计师.md": {
-      "hash": "1e4ec12d694c49ee24b2c5c0c73427376c74b8c18d3c9d976deeb3ae0b6154d1",
+    "5-Playground/P001-基础重建/设计模式与架构/discussions/002-如果你是框架设计师.md": {
+      "hash": "d141d38dc6912e60cb9b34e33a2a7a05c43f1dbcdaa636bc94aef501e043d39f",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:40+08:00",
-      "noteId": "yaxKZxNabqS9",
+      "lastSyncedAt": "2026-07-15T17:58:04+08:00",
+      "noteId": "xds8II3YuVqi",
       "templateVersion": 3,
-      "title": "005-如果你是框架设计师"
+      "title": "002-如果你是框架设计师"
     },
     "5-Playground/P001-基础重建/设计模式与架构/homework": {
       "kind": "dir",
@@ -921,37 +921,37 @@
       "templateVersion": 3,
       "title": "homework"
     },
-    "5-Playground/P001-基础重建/设计模式与架构/homework/002-设计模式单例练习.md": {
-      "hash": "a89148dd127479b177a03ad58ce6634cdd714a97709c11e33e00d6cfe3fc5028",
+    "5-Playground/P001-基础重建/设计模式与架构/homework/001-设计模式单例练习.md": {
+      "hash": "558d392eb6f2d9884bfd740e4bba3d4c624d868950af3d64d1e08e14f7ecb859",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:41+08:00",
-      "noteId": "0emGX03zoKZ4",
+      "lastSyncedAt": "2026-07-15T17:58:05+08:00",
+      "noteId": "Uw8ez5cPEiNL",
       "templateVersion": 3,
-      "title": "002-设计模式单例练习"
+      "title": "001-设计模式单例练习"
     },
-    "5-Playground/P001-基础重建/设计模式与架构/homework/004-工厂模式练习.md": {
-      "hash": "ac6b98b760f08d832c7602e0358017c97b40c08e60f5e068e037ea770cdee687",
+    "5-Playground/P001-基础重建/设计模式与架构/homework/002-工厂模式练习.md": {
+      "hash": "7249f02f4f38e5323478a3c5ee8468aa60a91bf86040c08efefc5a8e5abdfa8f",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:43+08:00",
-      "noteId": "dXPCUvKb5x0l",
+      "lastSyncedAt": "2026-07-15T17:58:07+08:00",
+      "noteId": "zLBGVzbIvdFn",
       "templateVersion": 3,
-      "title": "004-工厂模式练习"
+      "title": "002-工厂模式练习"
     },
-    "5-Playground/P001-基础重建/设计模式与架构/homework/006-观察者与策略练习.md": {
-      "hash": "fb8b3713badaee6244bb2cbff5095fe93a2eda6ebf5423cd5541e746cd063f46",
+    "5-Playground/P001-基础重建/设计模式与架构/homework/003-观察者与策略练习.md": {
+      "hash": "8eda2da3dca49effd9535fff307cdbefe95bf6765dd0a9538c727b76f6f410c2",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:45+08:00",
-      "noteId": "FBt8hefP5lrm",
+      "lastSyncedAt": "2026-07-15T17:58:08+08:00",
+      "noteId": "qP8SkXGHYR1L",
       "templateVersion": 3,
-      "title": "006-观察者与策略练习"
+      "title": "003-观察者与策略练习"
     },
-    "5-Playground/P001-基础重建/设计模式与架构/homework/008-装饰器与组合练习.md": {
-      "hash": "658e74e80c36157ac5040a5b06502c6bd25234e079fe08082fcbf88872022927",
+    "5-Playground/P001-基础重建/设计模式与架构/homework/004-装饰器与组合练习.md": {
+      "hash": "760b3be8eb85d0f026a867a95ebf42b380ac63d3ce7b90b46f7ec56124a50d73",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:46+08:00",
-      "noteId": "nd2OvZ38HTpB",
+      "lastSyncedAt": "2026-07-15T17:58:10+08:00",
+      "noteId": "oZPtsyeRukxG",
       "templateVersion": 3,
-      "title": "008-装饰器与组合练习"
+      "title": "004-装饰器与组合练习"
     },
     "5-Playground/P002-财务底盘与财富行为": {
       "kind": "dir",
@@ -997,13 +997,13 @@
       "templateVersion": 3,
       "title": "discussions"
     },
-    "5-Playground/P002-财务底盘与财富行为/01-金钱心理学/discussions/006-不同经历能否导出相同的金钱原则.md": {
-      "hash": "630e361adb42c522831f8f91b06e662ccd30fbbc397fb37932b103c197a993c4",
+    "5-Playground/P002-财务底盘与财富行为/01-金钱心理学/discussions/001-不同经历能否导出相同的金钱原则.md": {
+      "hash": "c34bd6babb77bcaef9e6095cd4c90214b29470b4c848a39dcddd6ee5f71ede3a",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:51+08:00",
-      "noteId": "LnnDlOSKim85",
+      "lastSyncedAt": "2026-07-15T17:58:12+08:00",
+      "noteId": "SQmy3G7CcAv4",
       "templateVersion": 3,
-      "title": "006-不同经历能否导出相同的金钱原则"
+      "title": "001-不同经历能否导出相同的金钱原则"
     },
     "5-Playground/P002-财务底盘与财富行为/README.md": {
       "hash": "33bd1ccce8023905a7a3b3412a401b67b88e6bc021f94c5f20f403d3cc5626c8",
@@ -1114,7 +1114,7 @@
       "title": "二十年总纲"
     }
   },
-  "lastSyncedAt": "2026-07-15T16:00:32+08:00",
+  "lastSyncedAt": "2026-07-15T18:03:14+08:00",
   "rootNoteId": "IcJM4VdVG0zX",
   "version": 1
 }
