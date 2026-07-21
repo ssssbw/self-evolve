@@ -722,37 +722,21 @@
       "templateVersion": 3,
       "title": "weekly"
     },
-    "4-Journal/weekly/2026-W28.md": {
-      "hash": "5af4da80329e8cb06c2d43865cca32e166cdf43433c56fae0cec38f21d3d4606",
+    "4-Journal/weekly/2026-W30.md": {
+      "hash": "7568a8e44da07ab3af1efd52482f9d109e6990df144f561b93b705213196a861",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:35+08:00",
-      "noteId": "QOGEPaefGyTh",
+      "lastSyncedAt": "2026-07-21T11:55:39+08:00",
+      "noteId": "Cg6M3nBgRRCw",
       "templateVersion": 3,
-      "title": "2026-W28"
-    },
-    "4-Journal/weekly/2026-W29.md": {
-      "hash": "7e5f28e159d5e1a0913c4f35bac2dbfe6e1438475e390a8d3b4afc067acbde68",
-      "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:22+08:00",
-      "noteId": "1WFWALkKIz4z",
-      "templateVersion": 3,
-      "title": "2026-W29"
+      "title": "2026-W30"
     },
     "4-Journal/weekly/_template.md": {
-      "hash": "c49f493371b596b66be1d53c32f099a384c268aaa3bd3f5d9954486845a5a44b",
+      "hash": "fa370d859b705c471ddac380f9de17f4edaa5b031a3045e7117874caec2bf568",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:37+08:00",
+      "lastSyncedAt": "2026-07-21T11:55:41+08:00",
       "noteId": "HbZq1I0r5g3b",
       "templateVersion": 3,
       "title": "_template"
-    },
-    "4-Journal/weekly/example-weekly-review.md": {
-      "hash": "429d7b3a8bd88146e6b035a86d4c7d0c411b5b2bf6c2ec210ba69b1e5c54fae3",
-      "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:38+08:00",
-      "noteId": "98W2ai8XkAFP",
-      "templateVersion": 3,
-      "title": "example-weekly-review"
     },
     "4-Journal/yearly": {
       "kind": "dir",
@@ -1114,7 +1098,7 @@
       "title": "二十年总纲"
     }
   },
-  "lastSyncedAt": "2026-07-15T18:03:14+08:00",
+  "lastSyncedAt": "2026-07-21T11:55:53+08:00",
   "rootNoteId": "IcJM4VdVG0zX",
   "version": 1
 }
