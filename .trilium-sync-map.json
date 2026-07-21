@@ -173,9 +173,9 @@
       "title": "ch12-并发编程"
     },
     "0-Projects/P001-基础重建/plan.md": {
-      "hash": "9ec0383009111ce4d1a8a3222e2240f9a83c34522652b904f3f32fa45a155c78",
+      "hash": "f860d093bc6bd83d24bcfa5b4850ee2bd2facd30a44c3f450c777881156f714d",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:17+08:00",
+      "lastSyncedAt": "2026-07-21T17:54:03+08:00",
       "noteId": "AxErkyoNZsia",
       "templateVersion": 3,
       "title": "plan"
@@ -723,9 +723,9 @@
       "title": "weekly"
     },
     "4-Journal/weekly/2026-W30.md": {
-      "hash": "7568a8e44da07ab3af1efd52482f9d109e6990df144f561b93b705213196a861",
+      "hash": "af31242411991ce09aac67dc53060f08124078eae0b8cc4989d96a571fc07f23",
       "kind": "file",
-      "lastSyncedAt": "2026-07-21T11:55:39+08:00",
+      "lastSyncedAt": "2026-07-21T17:54:04+08:00",
       "noteId": "Cg6M3nBgRRCw",
       "templateVersion": 3,
       "title": "2026-W30"
@@ -790,9 +790,9 @@
       "title": "discussions"
     },
     "5-Playground/P001-基础重建/CSAPP/discussions/001-AI时代学底层还有意义吗.md": {
-      "hash": "8960782b204106f898dfa553f8cb0fd5b3531e61fabc4c0c87469e7d933b3db1",
+      "hash": "640b92a34f7b252ef72aea6b0582f3166fe6f871ff0cf98c15be4c393dd5a8aa",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:25+08:00",
+      "lastSyncedAt": "2026-07-21T17:54:06+08:00",
       "noteId": "nL5tmsdAWgFo",
       "templateVersion": 3,
       "title": "001-AI时代学底层还有意义吗"
@@ -821,9 +821,9 @@
       "title": "homework"
     },
     "5-Playground/P001-基础重建/CSAPP/homework/001-你写的代码计算机在做什么.md": {
-      "hash": "25dc17349b7289fd386eb7bbd0599703d1376469ef5f62c11799f9b8105ba818",
+      "hash": "4357a963f0da12fe024ac68724d1351e22d7d90def93e65b088bfd05bf43a7ec",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:30+08:00",
+      "lastSyncedAt": "2026-07-21T17:54:14+08:00",
       "noteId": "vfAjNmfKZ68G",
       "templateVersion": 3,
       "title": "001-你写的代码计算机在做什么"
@@ -883,9 +883,9 @@
       "title": "discussions"
     },
     "5-Playground/P001-基础重建/设计模式与架构/discussions/001-Flutter的Widget为什么是immutable的.md": {
-      "hash": "380a51747d5c998fdec12b81bda3b89bf44cce6c4e671c7897595f9755b7c43d",
+      "hash": "c9df0529908db6eb7154d13745616e1a68b9eafc6f2da1e6b62634b53f18725b",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T17:58:03+08:00",
+      "lastSyncedAt": "2026-07-21T17:54:31+08:00",
       "noteId": "rPMYwmKaolRr",
       "templateVersion": 3,
       "title": "001-Flutter的Widget为什么是immutable的"
@@ -906,9 +906,9 @@
       "title": "homework"
     },
     "5-Playground/P001-基础重建/设计模式与架构/homework/001-设计模式单例练习.md": {
-      "hash": "558d392eb6f2d9884bfd740e4bba3d4c624d868950af3d64d1e08e14f7ecb859",
+      "hash": "bb4217973e6a3c6e7c61c6f9efdd5fb338a31de3e09cc1aa744a673b20ff722d",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T17:58:05+08:00",
+      "lastSyncedAt": "2026-07-21T17:54:33+08:00",
       "noteId": "Uw8ez5cPEiNL",
       "templateVersion": 3,
       "title": "001-设计模式单例练习"
@@ -1098,7 +1098,7 @@
       "title": "二十年总纲"
     }
   },
-  "lastSyncedAt": "2026-07-21T11:55:53+08:00",
+  "lastSyncedAt": "2026-07-21T17:54:47+08:00",
   "rootNoteId": "IcJM4VdVG0zX",
   "version": 1
 }
