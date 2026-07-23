@@ -173,9 +173,9 @@
       "title": "ch12-并发编程"
     },
     "0-Projects/P001-基础重建/plan.md": {
-      "hash": "f860d093bc6bd83d24bcfa5b4850ee2bd2facd30a44c3f450c777881156f714d",
+      "hash": "b63c3478b51e075323ce5dcca2c4352fd14596da8e8a9f06f237c175392a7657",
       "kind": "file",
-      "lastSyncedAt": "2026-07-21T17:54:03+08:00",
+      "lastSyncedAt": "2026-07-23T17:05:56+08:00",
       "noteId": "AxErkyoNZsia",
       "templateVersion": 3,
       "title": "plan"
@@ -510,9 +510,9 @@
       "title": "leetcode-study-plan"
     },
     "1-Areas/A1-技术/roadmap.md": {
-      "hash": "17c96366fe48c7e7face86748a84ce371ddee341b3aa7f66987e9533604a8828",
+      "hash": "b8dea61150ca5d22d7a3e2e373767ed5b95c7dffd2d59c7553d910272f5379e3",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:00+08:00",
+      "lastSyncedAt": "2026-07-23T17:05:59+08:00",
       "noteId": "srhzqCXnCTN5",
       "templateVersion": 3,
       "title": "roadmap"
@@ -821,9 +821,9 @@
       "title": "homework"
     },
     "5-Playground/P001-基础重建/CSAPP/homework/001-你写的代码计算机在做什么.md": {
-      "hash": "4357a963f0da12fe024ac68724d1351e22d7d90def93e65b088bfd05bf43a7ec",
+      "hash": "3199d1d105fb087cf0ae59a3d1b5ff409f7519cf7c7625daaf5dc3fdf6f00440",
       "kind": "file",
-      "lastSyncedAt": "2026-07-21T17:54:14+08:00",
+      "lastSyncedAt": "2026-07-23T17:32:00+08:00",
       "noteId": "vfAjNmfKZ68G",
       "templateVersion": 3,
       "title": "001-你写的代码计算机在做什么"
@@ -882,13 +882,13 @@
       "templateVersion": 3,
       "title": "discussions"
     },
-    "5-Playground/P001-基础重建/设计模式与架构/discussions/001-Flutter的Widget为什么是immutable的.md": {
-      "hash": "c9df0529908db6eb7154d13745616e1a68b9eafc6f2da1e6b62634b53f18725b",
+    "5-Playground/P001-基础重建/设计模式与架构/discussions/001-原则与模式：开发时必须全部遵守吗.md": {
+      "hash": "c3e00a8c82fceaab943e3884650d644c41f0586fc919834587b693d5f5c37bdd",
       "kind": "file",
-      "lastSyncedAt": "2026-07-21T17:54:31+08:00",
-      "noteId": "rPMYwmKaolRr",
+      "lastSyncedAt": "2026-07-23T17:06:04+08:00",
+      "noteId": "3ffUHKz7rBgx",
       "templateVersion": 3,
-      "title": "001-Flutter的Widget为什么是immutable的"
+      "title": "001-原则与模式：开发时必须全部遵守吗"
     },
     "5-Playground/P001-基础重建/设计模式与架构/discussions/002-如果你是框架设计师.md": {
       "hash": "d141d38dc6912e60cb9b34e33a2a7a05c43f1dbcdaa636bc94aef501e043d39f",
@@ -906,9 +906,9 @@
       "title": "homework"
     },
     "5-Playground/P001-基础重建/设计模式与架构/homework/001-设计模式单例练习.md": {
-      "hash": "bb4217973e6a3c6e7c61c6f9efdd5fb338a31de3e09cc1aa744a673b20ff722d",
+      "hash": "ddabff4459145e91e509bf2fb97381545ad2e65dfe5f31f1eb231c968b5d700c",
       "kind": "file",
-      "lastSyncedAt": "2026-07-21T17:54:33+08:00",
+      "lastSyncedAt": "2026-07-23T17:06:05+08:00",
       "noteId": "Uw8ez5cPEiNL",
       "templateVersion": 3,
       "title": "001-设计模式单例练习"
@@ -1098,7 +1098,7 @@
       "title": "二十年总纲"
     }
   },
-  "lastSyncedAt": "2026-07-21T17:54:47+08:00",
+  "lastSyncedAt": "2026-07-23T17:32:00+08:00",
   "rootNoteId": "IcJM4VdVG0zX",
   "version": 1
 }
