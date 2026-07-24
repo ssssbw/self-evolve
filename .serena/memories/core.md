@@ -6,4 +6,5 @@
 - New-session context entry points: `.ai/CONTEXT.md` then `.ai/SESSION-LOG.md`; then relevant indexes such as `guideline/_index.md`, `0-Projects/_index.md`, latest `4-Journal/` entry.
 - Preserve user-authored personal notes; keep edits narrowly scoped and avoid unrelated reorganizations.
 - Read `mem:tech_stack` for implementation/runtime details, `mem:conventions` for content and script conventions, `mem:suggested_commands` for useful local commands, `mem:task_completion` before closing coding tasks.
+- Read `mem:user_preferences/career_context` for career planning context, income baseline, overtime boundaries, and job-change preparation preferences.
 - Read `mem:user_preferences/csapp-homework-thread` for CSAPP homework/discussion thread preferences.
