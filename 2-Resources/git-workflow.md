@@ -8,10 +8,21 @@
 
 ### 开始工作前（每次打开电脑）
 
-```bash
-cd D:\self-evolve
+Windows PowerShell（默认目录）：
+
+```powershell
+Set-Location 'D:\self-evolve'
 git pull
 ```
+
+macOS Terminal（默认目录）：
+
+```bash
+cd "$HOME/self-evolve"
+git pull
+```
+
+如果仓库不在默认目录，进入实际克隆位置后执行相同的 Git 命令。
 
 ### 完成一天的学习后
 
