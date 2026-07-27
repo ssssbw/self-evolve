@@ -1,6 +1,6 @@
 # Self-Evolve AI 助手
 
-> 所属项目：P004 下一份工作准备\
+> 所属项目：P004 第二份工作准备\
 > 当前状态：产品设计阶段，尚未开始编码\
 > 代码仓库：Windows 默认 `D:\self-evolve-ai-assistant`；macOS 默认 `~/self-evolve-ai-assistant`
 
@@ -45,7 +45,7 @@ Self-Evolve AI 助手是 P004 的长期主 Challenge，也是用于验证 AI 全
 具体挑战继续保存在：
 
 ```text
-5-Playground/P004-下一份工作准备/
+5-Playground/P004-第二份工作准备/
 ```
 
 每一层都应继续改造同一个 Self-Evolve AI 助手，不创建互不相关的小型 Demo。现有 L1-L7 Challenge 是能力验收入口；本目录负责记录产品定位、跨层决策和总体进度。

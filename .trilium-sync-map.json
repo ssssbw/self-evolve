@@ -203,17 +203,110 @@
       "title": "P003-学习与执行"
     },
     "0-Projects/P003-学习与执行/plan.md": {
-      "hash": "fe7d175edc9366b4fc99454c813a53dc0a32c2af69545075bb057365cf474f28",
+      "hash": "c14711d77986ccca0abdbc064b3fc654377af6d0db1626759a96fdd7f0590ae4",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:19+08:00",
+      "lastSyncedAt": "2026-07-27T16:41:05+08:00",
       "noteId": "Hc0a9xCdb8nR",
       "templateVersion": 3,
       "title": "plan"
     },
-    "0-Projects/_index.md": {
-      "hash": "d70268b13cfc987b7b63c518fe31c1665862e1331503f5d1643ce064e4af6e68",
+    "0-Projects/P004-第二份工作准备": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:40:25+08:00",
+      "noteId": "96osLY8lq046",
+      "templateVersion": 3,
+      "title": "P004-第二份工作准备"
+    },
+    "0-Projects/P004-第二份工作准备/ai-application-roadmap.md": {
+      "hash": "c2a2635ec7dbf4851d001e9050f898f727eee8070a3805de1e7bccf8067c21af",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:21+08:00",
+      "lastSyncedAt": "2026-07-27T16:41:06+08:00",
+      "noteId": "d19ruiL4dB5c",
+      "templateVersion": 3,
+      "title": "ai-application-roadmap"
+    },
+    "0-Projects/P004-第二份工作准备/ai-fullstack-pyramid.md": {
+      "hash": "65cef53a12361d4e25d6db236de798385bff2a87617950926988cf3c27e077bf",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:08+08:00",
+      "noteId": "sg7tVh33dH70",
+      "templateVersion": 3,
+      "title": "ai-fullstack-pyramid"
+    },
+    "0-Projects/P004-第二份工作准备/current-company-ai-project.md": {
+      "hash": "654966ede95bd636bb3541c01034b1551a9009b9eaa85ee9b1f5b630273b629d",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:10+08:00",
+      "noteId": "smOvYLahM0dc",
+      "templateVersion": 3,
+      "title": "current-company-ai-project"
+    },
+    "0-Projects/P004-第二份工作准备/interview-prep.md": {
+      "hash": "1dc7fe81112d802433d50bc2ca6783150d9e63bd827856d9b3346aa412d1e0d5",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:12+08:00",
+      "noteId": "MFagjQAPIheb",
+      "templateVersion": 3,
+      "title": "interview-prep"
+    },
+    "0-Projects/P004-第二份工作准备/notes": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:40:28+08:00",
+      "noteId": "amrQQ6VwqWTz",
+      "templateVersion": 3,
+      "title": "notes"
+    },
+    "0-Projects/P004-第二份工作准备/notes/_index.md": {
+      "hash": "6a3d643deacf92bb963bebd6d74786d17849b1a6ee9ddd7df56529d5738d011a",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:13+08:00",
+      "noteId": "4gZn3gXGfAXA",
+      "templateVersion": 3,
+      "title": "_index"
+    },
+    "0-Projects/P004-第二份工作准备/plan.md": {
+      "hash": "2f64bb409d56e5ed60338ddf42c7eaa6a705967a8e69a91f0bd6c9643a96c8c3",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:14+08:00",
+      "noteId": "EEJe9BUk3MbU",
+      "templateVersion": 3,
+      "title": "plan"
+    },
+    "0-Projects/P004-第二份工作准备/resume-assets.md": {
+      "hash": "4c2d76b916b1d9a1a2640d10159e1af0931cef0c0010caa5edcec77ca9a12827",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:16+08:00",
+      "noteId": "LH4vfcl6J39b",
+      "templateVersion": 3,
+      "title": "resume-assets"
+    },
+    "0-Projects/P004-第二份工作准备/review.md": {
+      "hash": "a2affbcda20e4d5e88531e6301e3a54b1e067fc4342e48388d75281a6745eb45",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:19+08:00",
+      "noteId": "fomvFrJ4GVxm",
+      "templateVersion": 3,
+      "title": "review"
+    },
+    "0-Projects/P004-第二份工作准备/self-evolve-ai-assistant": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:40:31+08:00",
+      "noteId": "GsxyXBwZLMrb",
+      "templateVersion": 3,
+      "title": "self-evolve-ai-assistant"
+    },
+    "0-Projects/P004-第二份工作准备/self-evolve-ai-assistant/README.md": {
+      "hash": "aca9172392010aa7f6d3bc4f99e8d13347e6808ee23b16cf5f069d3ae68e99a7",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:20+08:00",
+      "noteId": "5qtehCcgGVqi",
+      "templateVersion": 3,
+      "title": "README"
+    },
+    "0-Projects/_index.md": {
+      "hash": "e56248141953f616ea92fbef51128e9b8b8466ca18f06d1224390a6460a0b381",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:21+08:00",
       "noteId": "0AGTdkAFd6WS",
       "templateVersion": 3,
       "title": "_index"
@@ -662,9 +755,9 @@
       "title": "2-Resources"
     },
     "2-Resources/git-workflow.md": {
-      "hash": "3be2d8eb72082cb7063df856ea1e76896ca6d89c8a5c37a807a4d6e6fd5e5045",
+      "hash": "9278bfc0b82ba6a91fce60ca064d181997772f10a72ceab2ea90fdb862a2817f",
       "kind": "file",
-      "lastSyncedAt": "2026-07-11T17:08:26+08:00",
+      "lastSyncedAt": "2026-07-27T16:41:23+08:00",
       "noteId": "c33FGl9FWT7M",
       "templateVersion": 3,
       "title": "git-workflow"
@@ -723,17 +816,25 @@
       "title": "weekly"
     },
     "4-Journal/weekly/2026-W30.md": {
-      "hash": "af31242411991ce09aac67dc53060f08124078eae0b8cc4989d96a571fc07f23",
+      "hash": "78e777af4313062c98bdd907a065616fe67c801e8a3152393a11d34cd6e3b6d5",
       "kind": "file",
-      "lastSyncedAt": "2026-07-21T17:54:04+08:00",
+      "lastSyncedAt": "2026-07-27T16:41:24+08:00",
       "noteId": "Cg6M3nBgRRCw",
       "templateVersion": 3,
       "title": "2026-W30"
     },
-    "4-Journal/weekly/_template.md": {
-      "hash": "fa370d859b705c471ddac380f9de17f4edaa5b031a3045e7117874caec2bf568",
+    "4-Journal/weekly/2026-W31.md": {
+      "hash": "90b57291e6872359244063da9a262bf753de75873c56ce9122a2675dba8c4079",
       "kind": "file",
-      "lastSyncedAt": "2026-07-21T11:55:41+08:00",
+      "lastSyncedAt": "2026-07-27T16:41:26+08:00",
+      "noteId": "mX8DpKEK2eB5",
+      "templateVersion": 3,
+      "title": "2026-W31"
+    },
+    "4-Journal/weekly/_template.md": {
+      "hash": "7d173b4150ae5eddcedb42fd7b23d5706c8705f9fba82c36c83e7c002e6127f5",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:28+08:00",
       "noteId": "HbZq1I0r5g3b",
       "templateVersion": 3,
       "title": "_template"
@@ -1027,10 +1128,283 @@
       "templateVersion": 3,
       "title": "README"
     },
-    "5-Playground/README.md": {
-      "hash": "0603411b12b64c675460c316ab0d8ca3ea94b29e33df9484e7101df888ff7c08",
+    "5-Playground/P004-第二份工作准备": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:40:27+08:00",
+      "noteId": "wG0guo7q0GsU",
+      "templateVersion": 3,
+      "title": "P004-第二份工作准备"
+    },
+    "5-Playground/P004-第二份工作准备/L1-工程基础底座": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:40:33+08:00",
+      "noteId": "wSQieG9LTNhP",
+      "templateVersion": 3,
+      "title": "L1-工程基础底座"
+    },
+    "5-Playground/P004-第二份工作准备/L1-工程基础底座/README.md": {
+      "hash": "f7ec5154d6fe4f46ef6de78d37f4f25768fb7722b120cf0350ec50243f863112",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:55+08:00",
+      "lastSyncedAt": "2026-07-27T16:41:29+08:00",
+      "noteId": "VOTORkSZBF8p",
+      "templateVersion": 3,
+      "title": "README"
+    },
+    "5-Playground/P004-第二份工作准备/L1-工程基础底座/challenges": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:40:51+08:00",
+      "noteId": "yLazeTGSx3aA",
+      "templateVersion": 3,
+      "title": "challenges"
+    },
+    "5-Playground/P004-第二份工作准备/L1-工程基础底座/challenges/001-Self-Evolve笔记元数据API.md": {
+      "hash": "026e31c1c2e6d17e042de94005011b6626fd00be9b7fd854c095850aa9475715",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:30+08:00",
+      "noteId": "8Zdn2kGZrwpl",
+      "templateVersion": 3,
+      "title": "001-Self-Evolve笔记元数据API"
+    },
+    "5-Playground/P004-第二份工作准备/L2-Web全栈产品能力": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:40:37+08:00",
+      "noteId": "rwabUKOKhKNI",
+      "templateVersion": 3,
+      "title": "L2-Web全栈产品能力"
+    },
+    "5-Playground/P004-第二份工作准备/L2-Web全栈产品能力/README.md": {
+      "hash": "0501ed55f99bc680535e09070a412db6718ac0026ed00c8bad6455c57691fdba",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:31+08:00",
+      "noteId": "26wLnmTXj3zF",
+      "templateVersion": 3,
+      "title": "README"
+    },
+    "5-Playground/P004-第二份工作准备/L2-Web全栈产品能力/challenges": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:40:55+08:00",
+      "noteId": "LBMptJfWG2QV",
+      "templateVersion": 3,
+      "title": "challenges"
+    },
+    "5-Playground/P004-第二份工作准备/L2-Web全栈产品能力/challenges/001-Self-Evolve知识库后台页面.md": {
+      "hash": "19fbbd649c34e7b904f4b2a9af8b460411a15d48b054e9c93c2f9b574e78d1a0",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:32+08:00",
+      "noteId": "TsOTcUa1p8Bp",
+      "templateVersion": 3,
+      "title": "001-Self-Evolve知识库后台页面"
+    },
+    "5-Playground/P004-第二份工作准备/L3-LLM基础与模型接入": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:40:41+08:00",
+      "noteId": "vB3UZUqEelJy",
+      "templateVersion": 3,
+      "title": "L3-LLM基础与模型接入"
+    },
+    "5-Playground/P004-第二份工作准备/L3-LLM基础与模型接入/README.md": {
+      "hash": "9a63b2f722c4a3d4ef9d96f6efdc9947ffb52ea6c123cb4e501a81c16c539e0d",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:33+08:00",
+      "noteId": "hePA9YmJ12DP",
+      "templateVersion": 3,
+      "title": "README"
+    },
+    "5-Playground/P004-第二份工作准备/L3-LLM基础与模型接入/challenges": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:40:56+08:00",
+      "noteId": "FkHecU4KuY0p",
+      "templateVersion": 3,
+      "title": "challenges"
+    },
+    "5-Playground/P004-第二份工作准备/L3-LLM基础与模型接入/challenges/001-Self-Evolve笔记结构化总结.md": {
+      "hash": "7e20ad6a544a30f75fac363529f091c4496fa8fb70702a41d4518888ed08afda",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:35+08:00",
+      "noteId": "IX4hv8wPR7vr",
+      "templateVersion": 3,
+      "title": "001-Self-Evolve笔记结构化总结"
+    },
+    "5-Playground/P004-第二份工作准备/L4-AI应用核心": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:40:43+08:00",
+      "noteId": "ijcy0C6L4Zcj",
+      "templateVersion": 3,
+      "title": "L4-AI应用核心"
+    },
+    "5-Playground/P004-第二份工作准备/L4-AI应用核心/README.md": {
+      "hash": "dd885a2b4b4547bc97b05d43600fb6d405b492cc30bc8897330ae9a7cefa029a",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:36+08:00",
+      "noteId": "rbk6NvA1Hioa",
+      "templateVersion": 3,
+      "title": "README"
+    },
+    "5-Playground/P004-第二份工作准备/L4-AI应用核心/challenges": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:40:57+08:00",
+      "noteId": "qOd5UMh6aylJ",
+      "templateVersion": 3,
+      "title": "challenges"
+    },
+    "5-Playground/P004-第二份工作准备/L4-AI应用核心/challenges/001-Self-Evolve知识库RAG.md": {
+      "hash": "086f6b310ea59cbb1b6c2524fa9145ad8fca122121ad9833034e7738b7db6292",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:39+08:00",
+      "noteId": "wankpS9fbsHp",
+      "templateVersion": 3,
+      "title": "001-Self-Evolve知识库RAG"
+    },
+    "5-Playground/P004-第二份工作准备/L5-AI生产工程化": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:40:45+08:00",
+      "noteId": "0hhC4YGgMJ3m",
+      "templateVersion": 3,
+      "title": "L5-AI生产工程化"
+    },
+    "5-Playground/P004-第二份工作准备/L5-AI生产工程化/README.md": {
+      "hash": "f3264da6fe31b6c58baf7600e480f003d275e7cd9fac751f3bd45c4ef42d34fc",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:40+08:00",
+      "noteId": "lNTKkLf5VbIa",
+      "templateVersion": 3,
+      "title": "README"
+    },
+    "5-Playground/P004-第二份工作准备/L5-AI生产工程化/challenges": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:40:58+08:00",
+      "noteId": "3IpmLwcZnmGJ",
+      "templateVersion": 3,
+      "title": "challenges"
+    },
+    "5-Playground/P004-第二份工作准备/L5-AI生产工程化/challenges/001-Self-EvolveRAG评测集.md": {
+      "hash": "4ff8af5653c164c7f19cedbd17a951af9d378837adfc17a51710d299b9dee51d",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:43+08:00",
+      "noteId": "TSSjGC70jhHI",
+      "templateVersion": 3,
+      "title": "001-Self-EvolveRAG评测集"
+    },
+    "5-Playground/P004-第二份工作准备/L6-系统设计与差异化": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:40:48+08:00",
+      "noteId": "cO3BRu9HMt3H",
+      "templateVersion": 3,
+      "title": "L6-系统设计与差异化"
+    },
+    "5-Playground/P004-第二份工作准备/L6-系统设计与差异化/README.md": {
+      "hash": "3a2cb72bbf8215dc408b3034b1d1345504aed609f5c4693bc4ff48d2784379d8",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:44+08:00",
+      "noteId": "TmFYASDkA3wV",
+      "templateVersion": 3,
+      "title": "README"
+    },
+    "5-Playground/P004-第二份工作准备/L6-系统设计与差异化/challenges": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:41:02+08:00",
+      "noteId": "c6tapKYVlgjW",
+      "templateVersion": 3,
+      "title": "challenges"
+    },
+    "5-Playground/P004-第二份工作准备/L6-系统设计与差异化/challenges/001-Self-EvolveAI助手架构设计.md": {
+      "hash": "8d7e9191b3c65063e6ce144c2957a80ff7e9fcca2ac72385c0d799014f3f4413",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:45+08:00",
+      "noteId": "h63MfifAAYNA",
+      "templateVersion": 3,
+      "title": "001-Self-EvolveAI助手架构设计"
+    },
+    "5-Playground/P004-第二份工作准备/L7-求职与个人品牌": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:40:50+08:00",
+      "noteId": "ji2wP6qUh7eL",
+      "templateVersion": 3,
+      "title": "L7-求职与个人品牌"
+    },
+    "5-Playground/P004-第二份工作准备/L7-求职与个人品牌/README.md": {
+      "hash": "e0e367d168226688f84a3080da90385ffea7ede7333c8d43cd9597e765209a39",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:41:47+08:00",
+      "noteId": "jN5SnkUz90nM",
+      "templateVersion": 3,
+      "title": "README"
+    },
+    "5-Playground/P004-第二份工作准备/L7-求职与个人品牌/challenges": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-27T16:41:04+08:00",
+      "noteId": "JPFbYOYlpLtg",
+      "templateVersion": 3,
+      "title": "challenges"
+    },
+    "5-Playground/P004-第二份工作准备/L7-求职与个人品牌/challenges/001-AI项目15分钟面试表达.md": {
+      "hash": "554e9e746941ad2351b24a7a2375909ef49da0e06ca56c23bd55c8e9b7b89add",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:42:19+08:00",
+      "noteId": "N4IhFVRK5FSV",
+      "templateVersion": 3,
+      "title": "001-AI项目15分钟面试表达"
+    },
+    "5-Playground/P004-第二份工作准备/L7-求职与个人品牌/challenges/002-AI项目2分钟表达.md": {
+      "hash": "134b87b6df90ef496dab880dc6e0418b4f7601bf3e3ee6461097e32c3628e0d4",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:42:22+08:00",
+      "noteId": "0vSL3d54Irwr",
+      "templateVersion": 3,
+      "title": "002-AI项目2分钟表达"
+    },
+    "5-Playground/P004-第二份工作准备/L7-求职与个人品牌/challenges/003-30秒简历项目介绍.md": {
+      "hash": "fc0a6282620435553d20c70ad70dfe446cdb219971fd6fee52be89aea3d7fd0d",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:42:24+08:00",
+      "noteId": "3gE77XxjIUv3",
+      "templateVersion": 3,
+      "title": "003-30秒简历项目介绍"
+    },
+    "5-Playground/P004-第二份工作准备/L7-求职与个人品牌/challenges/004-知识点2分钟表达.md": {
+      "hash": "25811ace4e8e455b83d4207d2b8caee7725d31a839cb98ec250c455a4857fbd6",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:42:26+08:00",
+      "noteId": "ZF1DhJ0dnPXy",
+      "templateVersion": 3,
+      "title": "004-知识点2分钟表达"
+    },
+    "5-Playground/P004-第二份工作准备/L7-求职与个人品牌/challenges/005-技术追问训练.md": {
+      "hash": "f85a1dab7c8c59441a02422afa9b2337247b06b8fe10cb797d9d7c6ebf912222",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:42:27+08:00",
+      "noteId": "RbfFoQAoFHfz",
+      "templateVersion": 3,
+      "title": "005-技术追问训练"
+    },
+    "5-Playground/P004-第二份工作准备/L7-求职与个人品牌/challenges/006-录音转写复盘模板.md": {
+      "hash": "dd57c6615a95a91ee713855e37674cfcdd9c12140650e7483f020f89b33e8d62",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:42:29+08:00",
+      "noteId": "D6PeMPDwOHCT",
+      "templateVersion": 3,
+      "title": "006-录音转写复盘模板"
+    },
+    "5-Playground/P004-第二份工作准备/L7-求职与个人品牌/prompt.md": {
+      "hash": "0ee98d25ae6dc9daf823f937481490bf126bc4983a26669c3ab8557bc2f14249",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:42:31+08:00",
+      "noteId": "FCo5JWIBPFSo",
+      "templateVersion": 3,
+      "title": "prompt"
+    },
+    "5-Playground/P004-第二份工作准备/README.md": {
+      "hash": "e1cee350353d9a2629512591adcd32c03ec625c88ac05b688e64ada0a84f706b",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:42:32+08:00",
+      "noteId": "NefYDD8AZD9u",
+      "templateVersion": 3,
+      "title": "README"
+    },
+    "5-Playground/README.md": {
+      "hash": "3fca61eb231d9c7c51fa5746044da18dcdf21d293537eab455f11567c6bf1067",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-27T16:42:35+08:00",
       "noteId": "TGch0srvUaPc",
       "templateVersion": 3,
       "title": "README"
@@ -1098,7 +1472,7 @@
       "title": "二十年总纲"
     }
   },
-  "lastSyncedAt": "2026-07-23T17:32:00+08:00",
+  "lastSyncedAt": "2026-07-27T16:42:48+08:00",
   "rootNoteId": "IcJM4VdVG0zX",
   "version": 1
 }

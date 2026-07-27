@@ -2,7 +2,7 @@
 
 我的背景：
 - 我目前是 Flutter / 客户端开发工程师。
-- 下一份工作目标是 AI 应用工程师 / AI 全栈工程师。
+- 第二份工作目标是 AI 应用工程师 / AI 全栈工程师。
 - 技术主线：Python、FastAPI、TypeScript、Next.js、PostgreSQL、Redis、Docker、LLM API、Structured Output、RAG、Evaluation。
 - 差异化方向：Flutter + AI 移动端应用，Go 作为后端增强。
 - 当前重点项目：用户反馈评估系统。项目目标是基于用户与客服聊天记录，使用大模型分析对话，输出产品问题、销售问题、服务问题等结构化报表。
