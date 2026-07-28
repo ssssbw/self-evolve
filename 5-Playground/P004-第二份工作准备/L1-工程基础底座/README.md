@@ -10,6 +10,12 @@
 
 - [001 HTTP / REST 基础](knowledge-tests/001-HTTP-REST基础.md)
 
+## Homework
+
+编程作业用于验证 Python、TypeScript、测试和工程拆分等 coding 能力。作业说明保存在本知识库，具体代码放到 `self-evolve-ai-assistant` 仓库中手写完成。
+
+- [001 Python Markdown 元数据提取](homework/001-PythonMarkdown元数据提取.md)
+
 ## Challenges
 
 - [001 Self-Evolve 笔记元数据 API](challenges/001-Self-Evolve笔记元数据API.md)
