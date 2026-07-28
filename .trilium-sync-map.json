@@ -824,9 +824,9 @@
       "title": "2026-W30"
     },
     "4-Journal/weekly/2026-W31.md": {
-      "hash": "90b57291e6872359244063da9a262bf753de75873c56ce9122a2675dba8c4079",
+      "hash": "cf4c6ee71349065d9755fa123fccd6956d1e955572a83a81b597a3c7e43201c4",
       "kind": "file",
-      "lastSyncedAt": "2026-07-27T16:41:26+08:00",
+      "lastSyncedAt": "2026-07-28T19:26:22+08:00",
       "noteId": "mX8DpKEK2eB5",
       "templateVersion": 3,
       "title": "2026-W31"
@@ -969,9 +969,9 @@
       "title": "设计模式与架构"
     },
     "5-Playground/P001-基础重建/设计模式与架构/README.md": {
-      "hash": "0028aaf74c44e2fd3933f51681069447f97c82a586835b9ec3bbb318a954cc03",
+      "hash": "e02bc63bc662f7d617d504b5b9bf2436cb466ba2d9786ed0622816d836fe284e",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T15:56:36+08:00",
+      "lastSyncedAt": "2026-07-28T19:26:23+08:00",
       "noteId": "5yx06flBO3C9",
       "templateVersion": 3,
       "title": "README"
@@ -1006,37 +1006,149 @@
       "templateVersion": 3,
       "title": "homework"
     },
-    "5-Playground/P001-基础重建/设计模式与架构/homework/001-设计模式单例练习.md": {
-      "hash": "ddabff4459145e91e509bf2fb97381545ad2e65dfe5f31f1eb231c968b5d700c",
+    "5-Playground/P001-基础重建/设计模式与架构/homework/001-工厂模式练习.md": {
+      "hash": "422c61e741167adf056a0d86bcb632211d0ad80cc00b944d830cbf1d55d7ffab",
       "kind": "file",
-      "lastSyncedAt": "2026-07-23T17:06:05+08:00",
-      "noteId": "Uw8ez5cPEiNL",
+      "lastSyncedAt": "2026-07-28T19:26:24+08:00",
+      "noteId": "A5FAvkx8uyX5",
       "templateVersion": 3,
-      "title": "001-设计模式单例练习"
+      "title": "001-工厂模式练习"
     },
-    "5-Playground/P001-基础重建/设计模式与架构/homework/002-工厂模式练习.md": {
-      "hash": "7249f02f4f38e5323478a3c5ee8468aa60a91bf86040c08efefc5a8e5abdfa8f",
+    "5-Playground/P001-基础重建/设计模式与架构/homework/002-单例模式练习.md": {
+      "hash": "3c9bbb9e839081e890cc476bdf468d697ba2d613b8f0f226449593267ddde43b",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T17:58:07+08:00",
-      "noteId": "zLBGVzbIvdFn",
+      "lastSyncedAt": "2026-07-28T19:26:26+08:00",
+      "noteId": "ITXRCMA0ok3A",
       "templateVersion": 3,
-      "title": "002-工厂模式练习"
+      "title": "002-单例模式练习"
     },
-    "5-Playground/P001-基础重建/设计模式与架构/homework/003-观察者与策略练习.md": {
-      "hash": "8eda2da3dca49effd9535fff307cdbefe95bf6765dd0a9538c727b76f6f410c2",
+    "5-Playground/P001-基础重建/设计模式与架构/homework/003-原型和生成器模式练习.md": {
+      "hash": "7878c9608788df9e10765044cc491cedd907f28a5dab83be7bead0af2fc008b8",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T17:58:08+08:00",
-      "noteId": "qP8SkXGHYR1L",
+      "lastSyncedAt": "2026-07-28T19:26:27+08:00",
+      "noteId": "T9mPmj5YDNvC",
       "templateVersion": 3,
-      "title": "003-观察者与策略练习"
+      "title": "003-原型和生成器模式练习"
     },
-    "5-Playground/P001-基础重建/设计模式与架构/homework/004-装饰器与组合练习.md": {
-      "hash": "760b3be8eb85d0f026a867a95ebf42b380ac63d3ce7b90b46f7ec56124a50d73",
+    "5-Playground/P001-基础重建/设计模式与架构/homework/004-装饰器与组合模式练习.md": {
+      "hash": "be0579c2e8778480a8ca77a29c2c4f76b7390cbe807bb091b7b3f0414b4c5b3b",
       "kind": "file",
-      "lastSyncedAt": "2026-07-15T17:58:10+08:00",
-      "noteId": "oZPtsyeRukxG",
+      "lastSyncedAt": "2026-07-28T19:26:28+08:00",
+      "noteId": "xcATtGFzpDna",
       "templateVersion": 3,
-      "title": "004-装饰器与组合练习"
+      "title": "004-装饰器与组合模式练习"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/005-适配器模式练习.md": {
+      "hash": "a86e55be3474405b62183cfda1878513d19c946eef4c9b0663a1a06c310016b2",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-28T19:26:29+08:00",
+      "noteId": "vJ1v9XZBIWrR",
+      "templateVersion": 3,
+      "title": "005-适配器模式练习"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/006-桥接模式练习.md": {
+      "hash": "16e4213c838e6dc9f1d14b8c8bdd2648a4097958c19a1deab99bea9269a4f411",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-28T19:26:30+08:00",
+      "noteId": "GCBCf2oxF0UZ",
+      "templateVersion": 3,
+      "title": "006-桥接模式练习"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/007-外观模式练习.md": {
+      "hash": "75141651096eb3da7fc946c77efdd6af0e1be69da645f8c3c189431a7bd1d813",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-28T19:26:32+08:00",
+      "noteId": "x2PgAIKSJmXB",
+      "templateVersion": 3,
+      "title": "007-外观模式练习"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/008-享元模式练习.md": {
+      "hash": "3f1c8da68c236b9a0e4fb6ce38a90527dd2cc678df1128a957c3c5c6c370a4c6",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-28T19:26:34+08:00",
+      "noteId": "ht8V4seTF6Jm",
+      "templateVersion": 3,
+      "title": "008-享元模式练习"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/009-代理模式练习.md": {
+      "hash": "aca8840fddb9e6e8b339b0c5c4af32fab8d9eab8453fa0de82ca976c4cbeba96",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-28T19:26:36+08:00",
+      "noteId": "vNEAqKXFNCzp",
+      "templateVersion": 3,
+      "title": "009-代理模式练习"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/010-责任链与命令模式练习.md": {
+      "hash": "3f0c63f7c345210a5a7f0be08255dedb19953c4cd479553bcc9619cfc8952b0e",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-28T19:26:37+08:00",
+      "noteId": "DOBKrCThzAKX",
+      "templateVersion": 3,
+      "title": "010-责任链与命令模式练习"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/011-观察者与策略模式练习.md": {
+      "hash": "a99d684ae7ed7b77531cd56538944c4ea4e9bfa4e020d214267334d27a87cb4d",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-28T19:26:38+08:00",
+      "noteId": "gve68CgQxxnC",
+      "templateVersion": 3,
+      "title": "011-观察者与策略模式练习"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/012-迭代器模式练习.md": {
+      "hash": "794b6277a3697cd2186b0ed032f9f7d7372353ce78ee3e52e0b88afeb58d7dd4",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-28T19:26:40+08:00",
+      "noteId": "5NReq0MFEKmD",
+      "templateVersion": 3,
+      "title": "012-迭代器模式练习"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/013-中介者模式练习.md": {
+      "hash": "165a0974f47499021b7a767a51cd56f04b1175c534afcdb577d033dba99303a8",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-28T19:26:41+08:00",
+      "noteId": "JDnlKx2hwJCG",
+      "templateVersion": 3,
+      "title": "013-中介者模式练习"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/014-备忘录模式练习.md": {
+      "hash": "b17c946c7d39de104b8a20e3d6c8e107eaa169b94818794460bf3f9d9fe0d122",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-28T19:26:43+08:00",
+      "noteId": "GEUjFILrCixo",
+      "templateVersion": 3,
+      "title": "014-备忘录模式练习"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/015-状态模式练习.md": {
+      "hash": "51fc2429a20afb992a647e97277919cabdeff57cd1efc2fae642764c1a8ef464",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-28T19:26:44+08:00",
+      "noteId": "umtUD4YVDstB",
+      "templateVersion": 3,
+      "title": "015-状态模式练习"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/016-模板方法模式练习.md": {
+      "hash": "302daed7dc3f5e4f980d0a92ef7a493c956f7120c2389020962b7f0fcda9bac0",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-28T19:26:45+08:00",
+      "noteId": "ExHHOcvOpjCq",
+      "templateVersion": 3,
+      "title": "016-模板方法模式练习"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/017-访问者模式练习.md": {
+      "hash": "356e23cfcb26b783d249603a19a95d4012b52d9af1ae95d1df44dd51c166ce70",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-28T19:26:47+08:00",
+      "noteId": "36fKdHugpmli",
+      "templateVersion": 3,
+      "title": "017-访问者模式练习"
+    },
+    "5-Playground/P001-基础重建/设计模式与架构/homework/018-解释器模式练习.md": {
+      "hash": "17b4a785231930839a41d8bbdcbcb5f6d6e7b1ad270912d115d7d1bbd93529ee",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-28T19:26:48+08:00",
+      "noteId": "ldajyANv4vr9",
+      "templateVersion": 3,
+      "title": "018-解释器模式练习"
     },
     "5-Playground/P002-财务底盘与财富行为": {
       "kind": "dir",
@@ -1143,9 +1255,9 @@
       "title": "L1-工程基础底座"
     },
     "5-Playground/P004-第二份工作准备/L1-工程基础底座/README.md": {
-      "hash": "f7ec5154d6fe4f46ef6de78d37f4f25768fb7722b120cf0350ec50243f863112",
+      "hash": "1fb4d3e2f4514b2084ffa07d662fae5ef00643a7d0a2099dfabc71d81eeb9981",
       "kind": "file",
-      "lastSyncedAt": "2026-07-27T16:41:29+08:00",
+      "lastSyncedAt": "2026-07-28T19:26:49+08:00",
       "noteId": "VOTORkSZBF8p",
       "templateVersion": 3,
       "title": "README"
@@ -1164,6 +1276,44 @@
       "noteId": "8Zdn2kGZrwpl",
       "templateVersion": 3,
       "title": "001-Self-Evolve笔记元数据API"
+    },
+    "5-Playground/P004-第二份工作准备/L1-工程基础底座/homework": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-28T19:26:18+08:00",
+      "noteId": "NNwsN2V0zRDF",
+      "templateVersion": 3,
+      "title": "homework"
+    },
+    "5-Playground/P004-第二份工作准备/L1-工程基础底座/homework/001-PythonMarkdown元数据提取.md": {
+      "hash": "61d16e4d208263a6e4426e633a0738d6e87c14f13168c026b0bcf8a9d948c571",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-28T19:26:50+08:00",
+      "noteId": "5QS8CMpFGrMW",
+      "templateVersion": 3,
+      "title": "001-PythonMarkdown元数据提取"
+    },
+    "5-Playground/P004-第二份工作准备/L1-工程基础底座/knowledge-tests": {
+      "kind": "dir",
+      "lastSyncedAt": "2026-07-28T19:26:20+08:00",
+      "noteId": "2bbR8B1pI5lR",
+      "templateVersion": 3,
+      "title": "knowledge-tests"
+    },
+    "5-Playground/P004-第二份工作准备/L1-工程基础底座/knowledge-tests/001-HTTP-REST基础.md": {
+      "hash": "875506c34367fa5e236d0615a233e4cc224ff927c05d6b1f1b8f61ce143fe4f9",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-28T19:26:52+08:00",
+      "noteId": "URKHoJtbYitb",
+      "templateVersion": 3,
+      "title": "001-HTTP-REST基础"
+    },
+    "5-Playground/P004-第二份工作准备/L1-工程基础底座/knowledge-tests/README.md": {
+      "hash": "ecd7ab30acfa7b2ec7a0fa918b26151d2c691e757d961cf77e85735e13d93823",
+      "kind": "file",
+      "lastSyncedAt": "2026-07-28T19:26:53+08:00",
+      "noteId": "4wwVuLKIKB8q",
+      "templateVersion": 3,
+      "title": "README"
     },
     "5-Playground/P004-第二份工作准备/L2-Web全栈产品能力": {
       "kind": "dir",
@@ -1472,7 +1622,7 @@
       "title": "二十年总纲"
     }
   },
-  "lastSyncedAt": "2026-07-27T16:42:48+08:00",
+  "lastSyncedAt": "2026-07-28T19:28:29+08:00",
   "rootNoteId": "IcJM4VdVG0zX",
   "version": 1
 }
