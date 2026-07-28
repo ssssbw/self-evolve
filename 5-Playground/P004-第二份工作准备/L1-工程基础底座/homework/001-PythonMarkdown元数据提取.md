@@ -1,10 +1,10 @@
 # 作业 001 — Python Markdown 元数据提取
 
-> 所属项目：P004 第二份工作准备  
-> 所属层级：L1 工程基础底座  
-> 练习类型：Python coding 能力验收  
-> 作业说明位置：`self-evolve/5-Playground/P004-第二份工作准备/L1-工程基础底座/homework/`  
-> 代码实现位置：`/Users/xw.zhu/self-evolve-ai-assistant`  
+> 所属项目：P004 第二份工作准备\
+> 所属层级：L1 工程基础底座\
+> 练习类型：Python coding 能力验收\
+> 作业说明位置：`self-evolve/5-Playground/P004-第二份工作准备/L1-工程基础底座/homework/`\
+> 代码实现位置：`self-evolve-ai-assistant`\
 > 状态：⬜ 未开始
 
 ## 目标
@@ -28,7 +28,7 @@ Self-Evolve AI 助手后续需要读取 `self-evolve` 中的 Markdown 文件，�
 
 ## 任务
 
-在 `/Users/xw.zhu/self-evolve-ai-assistant` 中手写 Python 代码，完成一个 Markdown 元数据提取器。
+在 `self-evolve-ai-assistant` 中手写 Python 代码，完成一个 Markdown 元数据提取器。
 
 建议文件位置由你自己决定，但需要能清楚说明模块职责。可以参考：
 
@@ -123,13 +123,13 @@ test_parse_empty_content_or_missing_file
 
 ## 验收标准
 
-| 掌握度 | 标准 |
-| ------ | ---- |
-| 20% | 能看懂题目，知道要用字符串处理、文件读取和数据结构 |
-| 40% | 能跟着资料写出基本函数，但边界处理和测试不完整 |
-| 60% | 能独立完成字符串解析、文件读取和结构化返回 |
-| 80% | 能补齐边界处理和 pytest，并说明代码如何迁移到 Self-Evolve AI 助手 |
-| 100% | 能解释模块拆分、异常处理、测试覆盖和后续 API 集成取舍 |
+| 掌握度  | 标准                                           |
+| ---- | -------------------------------------------- |
+| 20%  | 能看懂题目，知道要用字符串处理、文件读取和数据结构                    |
+| 40%  | 能跟着资料写出基本函数，但边界处理和测试不完整                      |
+| 60%  | 能独立完成字符串解析、文件读取和结构化返回                        |
+| 80%  | 能补齐边界处理和 pytest，并说明代码如何迁移到 Self-Evolve AI 助手 |
+| 100% | 能解释模块拆分、异常处理、测试覆盖和后续 API 集成取舍                |
 
 ## 复盘区
 
@@ -142,3 +142,4 @@ test_parse_empty_content_or_missing_file
 - 采用的方案：
 - 最终掌握度：
 - 可迁移到项目的点：
+
