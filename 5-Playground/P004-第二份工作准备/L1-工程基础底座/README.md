@@ -12,9 +12,10 @@
 
 ## Homework
 
-编程作业用于验证 Python、TypeScript、测试和工程拆分等 coding 能力。作业说明保存在本知识库，具体代码放到 `self-evolve-ai-assistant` 仓库中手写完成。
+编程作业用于验证 Python、TypeScript、测试和工程拆分等 coding 能力。作业说明保存在本知识库，具体代码根据作业定位放到对应本地项目中手写完成；公司项目只沉淀脱敏要求和复盘，不复制敏感代码或数据。
 
-- [001 Python Markdown 元数据提取](homework/001-PythonMarkdown元数据提取.md)
+- [001 Python Markdown 元数据提取](homework/001-PythonMarkdown元数据提取.md)：AI 助手方向备用练习。
+- [002 Python 聊天记录数据建模与脱敏](homework/002-Python聊天记录数据建模与脱敏.md)：当前公司 AI 项目优先练习。
 
 ## Challenges
 
