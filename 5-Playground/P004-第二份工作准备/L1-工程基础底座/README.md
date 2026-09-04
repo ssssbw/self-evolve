@@ -9,6 +9,7 @@
 知识验收测试用于把学过的基础知识沉淀成“笔记 + 自测题 + 手写答案区”。先独立作答，查资料可以，AI 只用于解释、追问和 review。
 
 - [001 HTTP / REST 基础](knowledge-tests/001-HTTP-REST基础.md)
+- [002 Dart 异步模型与事件循环](knowledge-tests/002-Dart异步模型与事件循环.md)
 
 ## Homework
 
@@ -16,6 +17,7 @@
 
 - [001 Python Markdown 元数据提取](homework/001-PythonMarkdown元数据提取.md)：AI 助手方向备用练习。
 - [002 Python 聊天记录数据建模与脱敏](homework/002-Python聊天记录数据建模与脱敏.md)：当前公司 AI 项目优先练习。
+- [003 Flutter 异步页面与事件循环实验](homework/003-Flutter异步页面与事件循环实验.md)：Flutter L1 异步与生命周期练习。
 
 ## Challenges
 

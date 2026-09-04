@@ -143,6 +143,7 @@ Flutter 的定位：
 
 - 不是重新学习 Flutter，而是把 Flutter 接入 AI 产品。
 - 重点补 SSE/WebSocket 流式响应、Markdown 增量渲染、音频录制与播放、相机与图片输入、本地缓存、对话状态管理、弱网重试、后台任务、推送通知和 Token 安全存储。
+- 详细学习清单见：[Flutter 栈学习清单](../../1-Areas/A1-技术/frontend/flutter-stack-learning-checklist.md)。
 
 系统设计：
 

@@ -38,6 +38,7 @@
 
 - [AI 应用工程路线](ai-application-roadmap.md)：当前阶段的 AI 应用能力地图。
 - [AI 全栈能力金字塔](ai-fullstack-pyramid.md)：第二份工作的完整技术栈金字塔，从工程基础到求职展示逐层点亮。
+- [Flutter 栈学习清单](../../1-Areas/A1-技术/frontend/flutter-stack-learning-checklist.md)：工作刚需、Flutter 开发岗退路，以及 Flutter + AI 移动端差异化能力。
 
 ## 当前核心职业资产
 

@@ -54,6 +54,7 @@ Phase 2 — 深耕全栈 (ongoing, parallel with Phase 1)
 - Frontend mastery: Flutter 深入与 Dart 语言特性
   - WHAT & WHY：深入理解 Flutter 的渲染管线、状态管理内部原理、以及自定义渲染能力，结合 Dart 的语言特性提升开发效率与性能。
   - 推荐资源：
+    - [Flutter 栈学习清单](frontend/flutter-stack-learning-checklist.md)
     - Flutter 官方文档（flutter.dev）
     - Dart 官方语言指南与 Effective Dart（dart.dev）
     - 与 Flutter 渲染与性能优化相关的专著/高质量文章
